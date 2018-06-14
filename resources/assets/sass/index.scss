@@ -1,5 +1,46 @@
 @import 'variables';
 
-#navbar {
+body {
+    font-family: $font-helvethaica, Sans-Serif;
+}
 
+.no-margin {
+    margin: 0;
+}
+
+#navbar {
+    .paddingTB18 {
+        padding: 18px 0px;
+    }
+
+    .navbar-bg {
+        background-color: $green-mint;
+    }
+
+    .line {
+        border-bottom: 1.5px solid $white;
+    }
+
+    .navbar {
+        padding: 25px 0px;
+    }
+
+    .logo-size {
+        width: auto;
+        height: 30px;
+    }
+
+    .menu {
+        color: #efefef;
+        font-family: $font-helvethaicaMed;
+        font-size: 20px;
+    }
+
+    .menu:active {
+        color: $white;
+    }
+
+    .menu:hover {
+        color: $white;
+    }
 }
