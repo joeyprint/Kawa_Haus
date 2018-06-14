@@ -12,3 +12,17 @@
   src: local("☺"), url("/fonts/db_helvethaica_x-webfont.woff") format("woff"), url("/fonts/db_helvethaica_x-webfont.ttf") format("truetype"), url("/fonts/db_helvethaica_x-webfont.svg") format("svg");
   font-weight: normal;
   font-style: normal; }
+
+@font-face {
+  font-family: 'Conv_akzidgrocffex-webfont';
+  src: url("/fonts/akzidgrocffex-webfont.eot");
+  src: local("☺"), url("/fonts/akzidgrocffex-webfont.woff") format("woff"), url("/fonts/akzidgrocffex-webfont.ttf") format("truetype"), url("/fonts/akzidgrocffex-webfont.svg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Conv_db_komol_x_demi_v3.2-webfont';
+  src: url("/fonts/db_komol_x_demi_v3.2-webfont.eot");
+  src: local("☺"), url("/fonts/db_komol_x_demi_v3.2-webfont.woff") format("woff"), url("/fonts/db_komol_x_demi_v3.2-webfont.ttf") format("truetype"), url("/fonts/db_komol_x_demi_v3.2-webfont.svg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
