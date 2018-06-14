@@ -4,3 +4,6 @@
     Sansiri Oka
 @endsection
 
+@section('content')
+
+@endsection
