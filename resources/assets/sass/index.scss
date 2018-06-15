@@ -1,7 +1,7 @@
 @import 'variables';
 
 body {
-    font-family: $font-helvethaica, Sans-Serif;
+    font-family: $font-helvethaicaMed, Sans-Serif;
 }
 
 .no-margin {
@@ -32,7 +32,6 @@ body {
 
     .menu {
         color: #efefef;
-        font-family: $font-helvethaicaMed;
         font-size: 20px;
     }
 
@@ -42,5 +41,142 @@ body {
 
     .menu:hover {
         color: $white;
+    }
+}
+
+#footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+
+    .padding-follow {
+        padding: 35px 0px 10px 0px;
+    }
+
+    .padding-allproject {
+        padding: 10px;
+    }
+
+    .padding-icon {
+        padding: 10px 34px;
+    }
+
+    .footer-bg {
+        background-color: $green-mint;
+    }
+
+    .text {
+        color: $white;
+        font-size: 30px;
+    }
+
+    .text-follow {
+        color: $white;
+        font-family: $font-akz;
+        font-size: 16px;
+    }
+
+    .fa-icon {
+        color: $white;
+        font-size: 19px;
+    }
+
+    .contact-text {
+        font-family: $font-akz !important;
+    }
+
+    .img-callcenter {
+        margin: 20px;
+        width: 92px;
+    }
+
+    // Small devices (landscape phones, 576px and up)
+    @media (min-width: 576px) {  }
+
+    // Medium devices (tablets, 768px and up)
+    @media (min-width: 768px) {  }
+
+    // Large devices (desktops, 992px and up)
+    @media (min-width: 992px) { 
+        .padding-allproject {
+            padding: 30px;
+        }
+
+        .img-callcenter {
+            margin: 0px;
+            width: 115px;
+        }
+
+        .border-line {
+            border-top: 1px solid $white;
+            border-bottom: 1px solid $white;
+        }
+
+        .padding-follow {
+            padding: 40px 20px;
+        }
+
+        .padding-icon {
+            padding: 40px 5px;
+        }
+
+        .fa-icon {
+            font-size: inherit !important;
+        }
+
+        .sub-text {
+            font-family: $font-akz;
+            font-size: 8px;
+            color: $white;
+        }
+
+        .main-text {
+            font-family: $font-akz;
+            font-size: 15px;
+            color: $white;
+
+            position: relative;
+            margin-top: -20px;
+            margin-bottom: 0px;
+        }
+
+        .block {
+            margin-top: 22px;
+            padding: 0px 22px;
+            width: auto;
+            height: 30px;
+            &:nth-child(1), &:nth-child(2), &:nth-child(3) {
+                border-right: 1px solid $white;
+            }
+            &:nth-child(1) {
+                padding-left: 15px !important;
+            }
+        }
+
+        .apply-block {
+            color: $white;
+            margin: 40px 0px 0px 15px;
+            height: 20px;
+            padding-right: 9px;
+            &:nth-child(1) {
+                border-right: 1px solid $white;
+            }
+            &:nth-child(2) {
+                padding-left: 9px;
+            }
+        }
+
+        .footer-des {
+            margin-top: 23px;
+            color: $white;
+            font-size: 14px;
+            line-height: 1.25;
+            letter-spacing: 0.2;
+        }
+    }
+
+    // Extra large devices (large desktops, 1200px and up)
+    @media (min-width: 1200px) { 
+       
     }
 }
