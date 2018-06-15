@@ -1,0 +1,126 @@
+@import 'variables';
+
+#concept {
+    position:  relative;
+
+    .topic-box {
+        z-index: 1;
+        height: 110px;
+        margin-top: 20px;
+        padding: 13px 25px;
+        background-color: $white;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%,0%);
+    }
+    
+    .topic-text {
+        font-family: $font-helvethaica;
+        font-size: 30px;
+        color: $blue-sea;
+        letter-spacing: 1.5px;
+        line-height: 1;
+    }
+
+    .kawa-text {
+        font-size: 30px;
+        line-height: 1;
+        letter-spacing: 5px;
+    }
+
+    .padding-wave-img {
+        padding-top: 5px;
+    }
+
+    .img-concept-pos {
+        z-index: -1;
+        position: relative;
+        margin-top: 35px;
+        margin-bottom: 10px;
+    }
+
+    .line {
+        border-top: 9px solid $blue-sea;
+        position: absolute;
+        top: 97.3%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .story-text {
+        padding-top: 10px;
+        font-size: 30px;
+        color: $blue-sea;
+        letter-spacing: 1.5px;
+        line-height: 1;
+        text-align: center;
+    }
+
+    .des-text {
+        font-family: $font-komol;
+        font-size: 20px;
+        color: #373737;
+        line-height: 1;
+    }
+
+    @media (min-width: 576px) {
+
+    }
+
+    @media (min-width: 768px) {
+
+    }
+
+    @media (min-width: 992px) {
+        height: 485px;
+
+        .concept-area {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .topic-box {
+            left: 19%;
+            top: 10%;
+        }
+
+        .img-concept-pos {
+            margin-top: 50px;
+            margin-left: 0px;
+        }
+
+        .line {
+            width: 215px;
+            left: 44%;
+        }
+
+        .story-box {
+            position: absolute;
+            top: 23%;
+            left: 45%;
+        }
+
+        .story-text {
+            text-align: left;
+        }
+    
+        .des-text {
+            font-size: 23px;
+            line-height: 1.5;
+            text-align: justify !important;
+        }
+
+        .water-mask-right {
+            position: absolute;
+            right: 0%;
+            bottom: 10%;
+            transform: rotate(90deg);
+        }
+    }
+
+    @media (min-width: 1200px) { 
+       
+    }
+}

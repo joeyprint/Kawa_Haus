@@ -1,0 +1,107 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'Conv_db_helvethaica_x_med_ext_v3.2-webfont';
+  src: url("/fonts/db_helvethaica_x_med_ext_v3.2-webfont.eot");
+  src: local("☺"), url("/fonts/db_helvethaica_x_med_ext_v3.2-webfont.woff") format("woff"), url("/fonts/db_helvethaica_x_med_ext_v3.2-webfont.ttf") format("truetype"), url("/fonts/db_helvethaica_x_med_ext_v3.2-webfont.svg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Conv_db_helvethaica_x-webfont';
+  src: url("/fonts/db_helvethaica_x-webfont.eot");
+  src: local("☺"), url("/fonts/db_helvethaica_x-webfont.woff") format("woff"), url("/fonts/db_helvethaica_x-webfont.ttf") format("truetype"), url("/fonts/db_helvethaica_x-webfont.svg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Conv_akzidgrocffex-webfont';
+  src: url("/fonts/akzidgrocffex-webfont.eot");
+  src: local("☺"), url("/fonts/akzidgrocffex-webfont.woff") format("woff"), url("/fonts/akzidgrocffex-webfont.ttf") format("truetype"), url("/fonts/akzidgrocffex-webfont.svg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Conv_db_komol_x_demi_v3.2-webfont';
+  src: url("/fonts/db_komol_x_demi_v3.2-webfont.eot");
+  src: local("☺"), url("/fonts/db_komol_x_demi_v3.2-webfont.woff") format("woff"), url("/fonts/db_komol_x_demi_v3.2-webfont.ttf") format("truetype"), url("/fonts/db_komol_x_demi_v3.2-webfont.svg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+#concept {
+  position: relative; }
+  #concept .topic-box {
+    z-index: 1;
+    height: 110px;
+    margin-top: 20px;
+    padding: 13px 25px;
+    background-color: #fff;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%); }
+  #concept .topic-text {
+    font-family: "Conv_db_helvethaica_x-webfont";
+    font-size: 30px;
+    color: #006783;
+    letter-spacing: 1.5px;
+    line-height: 1; }
+  #concept .kawa-text {
+    font-size: 30px;
+    line-height: 1;
+    letter-spacing: 5px; }
+  #concept .padding-wave-img {
+    padding-top: 5px; }
+  #concept .img-concept-pos {
+    z-index: -1;
+    position: relative;
+    margin-top: 35px;
+    margin-bottom: 10px; }
+  #concept .line {
+    border-top: 9px solid #006783;
+    position: absolute;
+    top: 97.3%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+  #concept .story-text {
+    padding-top: 10px;
+    font-size: 30px;
+    color: #006783;
+    letter-spacing: 1.5px;
+    line-height: 1;
+    text-align: center; }
+  #concept .des-text {
+    font-family: "Conv_db_komol_x_demi_v3.2-webfont";
+    font-size: 20px;
+    color: #373737;
+    line-height: 1; }
+  @media (min-width: 992px) {
+    #concept {
+      height: 485px; }
+      #concept .concept-area {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); }
+      #concept .topic-box {
+        left: 19%;
+        top: 10%; }
+      #concept .img-concept-pos {
+        margin-top: 50px;
+        margin-left: 0px; }
+      #concept .line {
+        width: 215px;
+        left: 44%; }
+      #concept .story-box {
+        position: absolute;
+        top: 23%;
+        left: 45%; }
+      #concept .story-text {
+        text-align: left; }
+      #concept .des-text {
+        font-size: 23px;
+        line-height: 1.5;
+        text-align: justify !important; }
+      #concept .water-mask-right {
+        position: absolute;
+        right: 0%;
+        bottom: 10%;
+        transform: rotate(90deg); } }
