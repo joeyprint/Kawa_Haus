@@ -12,6 +12,8 @@
                     สร้างเรื่องราวดีๆ ของชีวิต ภายใต้ร่มเงาของต้นไม้ใหญ่ และความ<br>
                     สดชื่นของชีวิตริมน้ำในขณะที่ทุกความสะดวกสบายอยู่ใกล้แค่เอื้อม</p>
             </div>
+        </div>
+        <div class="row no-gutters d-block d-lg-none">
             <div class="bg-price text-center">
                 <p class="concept-text no-margin padding-price price-text">เริ่ม 3.59 ล้าน*</p>
             </div>
