@@ -1,12 +1,12 @@
 <section id="navbar">
     <div class="container-fluid">
-        <div class="row justify-content-center d-none d-lg-block navbar-bg line paddingTB18">
+        <div class="row d-none d-lg-block navbar-bg line paddingTB18">
             <div class="col-12 text-center">
                 <img src="{{ asset('/imgs/logo_sansiri.png') }}" alt="Sansiri Logo" width="62px">
             </div>
         </div>
-        <div class="row justify-content-around navbar-bg">
-            <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="row navbar-bg navbar-main">
+            <nav class="navbar navbar-expand-lg navbar-light w-100">
                 <a class="navbar-brand" href="#">
                     <img class="logo-size" src="{{ asset('/imgs/logo_kawahaus.png') }}" alt="KAWA Logo">
                 </a>
@@ -36,20 +36,23 @@
                         <li class="nav-item">
                             <a class="nav-link menu" href="#">ลงทะเบียนรับข้อมูลเพิ่มเติม</a>
                         </li>
-                        <li class="nav-item float-right">
-                            <div class="dropdown">
-                                <button class="btn dropdown-toggle" type="button" data-toggle="dropdown">TH
-                                    <ul class="dropdown-menu">
-                                        <li><a href="#">TH</a></li>
-                                        <li><a href="#">EN</a></li>
-                                    </ul>
-                                </button>
-                            </div>
+                        <li class="nav-item d-block d-lg-none">
+                            <select class="change-menu">
+                                <option class="">TH</option>
+                                <option class="">EN</option>
+                            </select>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item d-block d-lg-none">
                             <a class="nav-link menu" href="#">แชร์</a>
                         </li>
                     </ul>
+                </div>
+                <div class="d-none d-lg-block">
+                    <select class="change-menu">
+                        <option class="">TH</option>
+                        <option class="">EN</option>
+                    </select>
+                    <a class="menu" href="#">แชร์</a>
                 </div>
             </nav>
         </div>

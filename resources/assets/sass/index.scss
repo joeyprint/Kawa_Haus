@@ -9,6 +9,11 @@ body {
 }
 
 #navbar {
+    .navbar-main {
+        padding: inherit;
+        z-index: 1000;
+    }
+    
     .paddingTB18 {
         padding: 18px 0px;
     }
@@ -33,6 +38,7 @@ body {
     .menu {
         color: #efefef;
         font-size: 20px;
+        padding: 0px 15px;
     }
 
     .menu:active {
@@ -42,9 +48,16 @@ body {
     .menu:hover {
         color: $white;
     }
+
+    .change-menu {
+        background-color: $white;
+        color: #303030;
+        width: 65px;
+    }
 }
 
 #footer {
+    z-index: -1;
     width: 100%;
     position: absolute;
     bottom: 0px;
