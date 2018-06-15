@@ -1,9 +1,11 @@
 <section id="footer">
     <div class="container-fluid footer-bg">
         <div class="row">
-            <div class="col-12 text-center padding-allproject">
-                <p class="text no-margin">โครงการทั้งหมด</p>
-                {{-- <img src="{{ asset('/imgs/arrow.png') }}" alt="down arrow"> --}}
+            <div class="d-flex flex-row justify-content-center align-items-center w-100">
+                <div class="col-12 text-center padding-allproject">
+                    <span class="text no-margin">โครงการทั้งหมด</span>
+                    <img class="down-arrow" src="{{ asset('/imgs/arrow_down.png') }}" alt="down arrow">
+                </div>
             </div>
         </div>
         <div class="row d-lg-none text-center">

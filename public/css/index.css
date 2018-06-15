@@ -67,6 +67,11 @@ body {
     padding: 35px 0px 10px 0px; }
   #footer .padding-allproject {
     padding: 10px; }
+  #footer .down-arrow {
+    position: relative;
+    margin: -10px 0px 0px 10px;
+    width: 20px;
+    height: auto; }
   #footer .padding-icon {
     padding: 10px 34px; }
   #footer .footer-bg {
@@ -89,6 +94,9 @@ body {
   @media (min-width: 992px) {
     #footer .padding-allproject {
       padding: 30px; }
+    #footer .down-arrow {
+      width: 26px;
+      height: auto; }
     #footer .img-callcenter {
       margin: 0px;
       width: 115px; }

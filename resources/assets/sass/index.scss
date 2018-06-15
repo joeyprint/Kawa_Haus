@@ -57,6 +57,13 @@ body {
         padding: 10px;
     }
 
+    .down-arrow {
+        position: relative;
+        margin: -10px 0px 0px 10px;
+        width: 20px;
+        height: auto;
+    }
+
     .padding-icon {
         padding: 10px 34px;
     }
@@ -100,6 +107,11 @@ body {
     @media (min-width: 992px) { 
         .padding-allproject {
             padding: 30px;
+        }
+
+        .down-arrow {
+            width: 26px;
+            height: auto;
         }
 
         .img-callcenter {
