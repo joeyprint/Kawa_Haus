@@ -8,6 +8,10 @@ body {
     margin: 0;
 }
 
+.no-padding {
+    padding: 0;
+}
+
 #navbar {
     .navbar-main {
         padding: inherit;
@@ -59,8 +63,6 @@ body {
 #footer {
     z-index: -1;
     width: 100%;
-    position: absolute;
-    bottom: 0px;
 
     .padding-follow {
         padding: 35px 0px 10px 0px;
@@ -110,14 +112,17 @@ body {
         width: 92px;
     }
 
-    // Small devices (landscape phones, 576px and up)
-    @media (min-width: 576px) {  }
+    @media (min-width: 576px) {
 
-    // Medium devices (tablets, 768px and up)
-    @media (min-width: 768px) {  }
+    }
 
-    // Large devices (desktops, 992px and up)
+    @media (min-width: 768px) {
+
+    }
+
     @media (min-width: 992px) { 
+        z-index: 0;
+
         .padding-allproject {
             padding: 30px;
         }
@@ -200,7 +205,6 @@ body {
         }
     }
 
-    // Extra large devices (large desktops, 1200px and up)
     @media (min-width: 1200px) { 
        
     }
