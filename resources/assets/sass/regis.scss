@@ -1,0 +1,105 @@
+@import 'variables';
+
+#regis {
+    position: relative;
+
+    .topic-text {
+        font-size: 23px;
+        line-height: 1.5;
+    }
+
+    .kawa-text {
+        color: $blue-sea;
+        font-size: 23px;
+        line-height: 1;
+    }
+
+    .call-text {
+        font-size: 21px;
+        line-height: 1;
+    }
+
+    .agree-box {
+        margin-top: 15px;
+    }
+
+    .checkbox {
+        position: relative;
+        top: 3px;
+        background-color: $white;
+    }
+
+    .agree-text {
+        margin: 0px 10px !important;
+        font-size: 16px;
+        line-height: 1;
+    }
+
+    .margin-form {
+        margin: 10px auto;
+    }
+
+    .select-box {
+        width: 100%;
+        height: 30px;
+        padding: 0px 8px;
+        background-color: #f6f6f6;
+        border: 1px solid #aeadac;
+    }
+
+    .submit-btn {
+        height: 30px;
+        width: 100%;
+        padding: 2px;
+        background-color: #e4d7c7;
+        border: none;
+        cursor: pointer;
+    }
+
+    .water-mask-left {
+        position: absolute;
+        left: 0%;
+        bottom: 10%;
+        transform: rotate(-90deg);
+    }
+
+    @media (min-width: 576px) {
+
+    }
+
+    @media (min-width: 768px) {
+
+    }
+
+    @media (min-width: 992px) {
+        .topic-text {
+            font-size: 35px;
+            line-height: 1;
+        }
+
+        .kawa-text {
+            font-size: 25px;
+            line-height: 1.5;
+        }
+    
+        .call-text {
+            font-size: 25px;
+            line-height: 1.5;
+        }
+
+        .checkbox {
+            position: relative;
+            top: 0px !important;
+            background-color: $white;
+        }
+        
+        .agree-text {
+            padding: auto 15px;
+            font-weight: 20px;
+        }
+    }
+
+    @media (min-width: 1200px) { 
+       
+    }
+}
