@@ -20,55 +20,58 @@
         <div class="row justify-content-center">
             <form action="" class="w-100">
                 <div class="col-lg-2 d-none d-lg-block"></div>
-                <div class="col-12 col-lg-4 no-margin">
+                <div class="col-12 col-lg-4 margin-form">
                     <div class="form-group">
                         <input type="text" class="form-control" placeholder="ชื่อ">
                     </div>
                 </div>
-                <div class="col-12 col-lg-4 no-margin">
+                <div class="col-12 col-lg-4 margin-form">
                     <div class="form-group">
                         <input type="text" class="form-control" placeholder="นามสกุล">
                     </div>                    
                 </div>
                 <div class="col-lg-2 d-none d-lg-block"></div>
-                <div class="col-12 col-lg-8 no-margin">
+                <div class="col-12 col-lg-8 margin-form">
                     <div class="form-group">
                         <input type="text" class="form-control" placeholder="เบอร์โทรศัพท์">
                     </div>
                 </div>                    
-                <div class="col-12 col-lg-8 no-margin">
+                <div class="col-12 col-lg-8 margin-form">
                     <div class="form-group">
                         <input type="text" class="form-control" placeholder="อีเมล">
                     </div>                    
                 </div>                    
-                <div class="col-12 col-lg-4 no-margin">
+                <div class="col-12 col-lg-4 margin-form">
                     <div class="form-group">
                         <select class="select-box align-middle" name="province" id="province">
                             <option value="none">ระบุจังหวัดที่ท่านอาศัยอยู่</option>
                         </select>
                     </div>                    
                 </div>
-                <div class="col-12 col-lg-4 no-margin">
+                <div class="col-12 col-lg-4 margin-form">
                     <div class="form-group">
                         <select class="select-box align-middle" name="district" id="district">
                             <option value="none">ระบุอำเภอที่ท่านอาศัยอยู่</option>
                         </select>
                     </div>                    
                 </div>
-                <div class="col-12 col-lg-4 no-margin">
+                <div class="col-12 col-lg-4 margin-form">
                     <div class="form-group">
                         <select class="select-box align-middle" name="budget" id="budget">
                             <option value="none">งบประมาณในการซื้อ</option>
                         </select>
                     </div>
                 </div>
-                <div class="col-12 col-lg-8">
+                <div class="col-12 d-block d-lg-none margin-form">
+                    <img src="{{ asset('/imgs/sansiri_life.png') }}" alt="banner sansiri life" width="100%">
+                </div>
+                <div class="col-12 col-lg-8 margin-form">
                     <button class="submit-btn font-weight-bold align-middle" type="submit">ส่ง</button>
                 </div>
             </form>
         </div>
         <div>
-            <img class="d-none d-lg-block water-mask-left" src="{{('/imgs/kawa_water.png')}}" alt="water mask">
+            <img class="d-none d-lg-block water-mask-left" src="{{ asset('/imgs/kawa_water.png') }}" alt="water mask">
         </div>
     </div>
 </section>
