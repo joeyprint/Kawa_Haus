@@ -1,0 +1,56 @@
+#innovation {
+    margin-top: 40px;
+
+    .row-innovation {
+        margin: 20px auto;
+    }
+
+    .text {
+        color: #989898;
+        font-size: 12px;
+        margin: 10px 0px;
+        line-height: 1;
+    }
+
+    .bg-linewave {
+        width: 100%;
+        height: auto;
+    }
+
+    .footer-innovation {
+        position: relative;
+        margin-top: -40px;
+    }
+
+    .margin-wave {
+        margin-bottom: 18px;
+    }
+
+    @media (min-width: 992px) {
+        margin-top: 150px;
+        
+        .row-innovation {
+            margin: 75px 0px;
+        }
+        
+        .text {
+            font-size: 18px;
+        }
+        
+        .footer-innovation {
+            position: relative;
+            margin-top: -80px;
+        }
+
+        .water-mask-right {
+            position: absolute;
+            top: 0%;
+            right: 0%;
+            transform: rotate(90deg);
+        }
+
+        .margin-wave {
+            margin-bottom: 45px;
+        }
+    }
+}

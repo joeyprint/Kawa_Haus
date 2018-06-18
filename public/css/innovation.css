@@ -1,0 +1,34 @@
+#innovation {
+  margin-top: 40px; }
+  #innovation .row-innovation {
+    margin: 20px auto; }
+  #innovation .text {
+    color: #989898;
+    font-size: 12px;
+    margin: 10px 0px;
+    line-height: 1; }
+  #innovation .bg-linewave {
+    width: 100%;
+    height: auto; }
+  #innovation .footer-innovation {
+    position: relative;
+    margin-top: -40px; }
+  #innovation .margin-wave {
+    margin-bottom: 18px; }
+  @media (min-width: 992px) {
+    #innovation {
+      margin-top: 150px; }
+      #innovation .row-innovation {
+        margin: 75px 0px; }
+      #innovation .text {
+        font-size: 18px; }
+      #innovation .footer-innovation {
+        position: relative;
+        margin-top: -80px; }
+      #innovation .water-mask-right {
+        position: absolute;
+        top: 0%;
+        right: 0%;
+        transform: rotate(90deg); }
+      #innovation .margin-wave {
+        margin-bottom: 45px; } }
