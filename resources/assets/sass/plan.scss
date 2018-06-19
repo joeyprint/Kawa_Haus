@@ -1,0 +1,114 @@
+@import 'variables';
+
+#plan {
+
+    .bg {
+        background-color: $green-mint;
+        overflow: hidden;
+    }
+
+    .topic-text {
+        color: $blue-sea;
+        font-size: 30px;
+        text-align: center;
+    }
+    
+    .btn-plan {
+        background-color: #6a8369;
+        padding: 15px;
+        color: $white;
+        font-size: 25px;
+    }
+
+    .select-btn {
+        margin-top: 19px;
+        background-color: #5d835f;
+        border: 1px solid #506b51;
+        width: 100%;
+        height: 40px;
+        border-radius: 0px;
+    }
+
+    .type-plan {
+        margin-bottom: 75px;
+        z-index: -1;
+    }
+
+    .line {
+        border-top: 7px solid #fff;
+        position: relative;
+        top: -7px;
+    }
+
+    .owl-carousel {
+        z-index: 100;
+    }
+
+    .plan-size {
+        width: auto;
+        height: 100%;
+    }
+
+    .plan-block {
+        position: relative;
+        width: 100%;
+        height: 50vh;
+    }
+
+    .plan-pos {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .arrow-pos {
+        position: absolute;
+        top: 50%;
+        transform: translate(0%, -50%);
+    }
+
+    .plan-all {
+        position: relative;
+        margin-top: -70px;
+    }
+    
+    @media (min-width: 992px) {
+        .btn-margin {
+            margin-top: 35px;
+        }
+        
+        .btn-plan {
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        .type-plan {
+            margin-top: 35px;
+            margin-bottom: 150px;
+        }
+
+        .option-text {
+            color: #000;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .option-text:hover {
+            text-decoration: underline #000;
+        }
+
+        .plan-block {
+            height: 95vh;
+        }
+
+        .plan-size {
+            width: auto;
+            height: 100%;
+        }
+
+        .plan-all {
+            margin-top: -150px;
+        }
+    }
+}

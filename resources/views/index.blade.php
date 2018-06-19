@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="{{ asset('/css/regis.css') }}">
     <link rel="stylesheet" href="{{ asset('/css/highlight.css') }}">
     <link rel="stylesheet" href="{{ asset('/css/innovation.css') }}">
+    <link rel="stylesheet" href="{{ asset('/css/plan.css') }}">
 @endsection
 
 @section('content')
@@ -18,8 +19,9 @@
     @include('components.regis')
     @include('components.highlight')
     @include('components.innovation')
+    @include('components.plan')
 @endsection
 
 @section('custom_script')
-
+    <script src="{{ asset('/js/plan.js') }}"></script>
 @endsection

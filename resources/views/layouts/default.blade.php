@@ -4,7 +4,8 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="{{ asset('/css/bootstrap.min.css') }}">
-        {{-- <link rel="stylesheet" href="{{ asset('/css/fontawesome.min.css') }}"> --}}
+        <link rel="stylesheet" href="{{ asset('/css/owl.carousel.min.css') }}">
+        <link rel="stylesheet" href="{{ asset('/css/owl.theme.default.min.css') }}">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
         <link rel="stylesheet" href="{{ asset('/css/index.css') }}">
 
@@ -21,6 +22,9 @@
         <script src="{{ asset('/js/jquery-3.3.1.min.js') }}"></script>
         <script src="{{ asset('/js/bootstrap.min.js') }}"></script>
         <script src="{{ asset('/js/fontawesome.min.js') }}"></script>
+        <script src="{{ asset('/js/owl.carousel.js') }}"></script>
+        {{-- <script src="{{ asset('/js/owl.navigation.js') }}"></script> --}}
+        <script src="{{ asset('/js/owl.animate.js') }}"></script>
         
         {{-- custom_script --}}
         @yield('custom_script')
