@@ -52,7 +52,7 @@
 
 #plan .type-plan {
   margin-bottom: 75px;
-  z-index: -1; }
+  z-index: 999; }
 
 #plan .line {
   border-top: 7px solid #fff;
@@ -60,16 +60,17 @@
   top: -7px; }
 
 #plan .owl-carousel {
-  z-index: 100; }
+  z-index: 50; }
 
 #plan .plan-size {
-  width: auto;
-  height: 100%; }
+  width: 100%;
+  height: auto; }
 
 #plan .plan-block {
   position: relative;
   width: 100%;
-  height: 50vh; }
+  height: 100%;
+  overflow: visible; }
 
 #plan .plan-pos {
   position: absolute;
@@ -84,7 +85,45 @@
 
 #plan .plan-all {
   position: relative;
-  margin-top: -70px; }
+  margin-top: -250px; }
+
+#plan .inno-text {
+  color: #989898;
+  font-size: 12px;
+  margin: 10px 0px;
+  line-height: 1; }
+
+#plan .inno-size {
+  height: 30px;
+  width: auto;
+  display: initial; }
+
+#plan .inno-pos {
+  position: relative;
+  top: 500px; }
+
+#plan .btn-download {
+  background-color: #83a381;
+  color: #fff;
+  font-family: "Conv_db_komol_x_demi_v3.2-webfont";
+  font-size: 24px;
+  padding: 10px;
+  margin-top: 17px;
+  cursor: pointer; }
+  #plan .btn-download:nth-child(2) {
+    margin-bottom: 17px; }
+
+#plan .btn-download:hover {
+  background-color: #506b51; }
+
+#plan .pos-for-watermask {
+  position: relative; }
+
+#plan .water-mask-left {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  transform: rotate(-90deg); }
 
 @media (min-width: 992px) {
   #plan .btn-margin {
@@ -102,9 +141,16 @@
   #plan .option-text:hover {
     text-decoration: underline #000; }
   #plan .plan-block {
-    height: 95vh; }
+    z-index: -1; }
   #plan .plan-size {
     width: auto;
-    height: 100%; }
+    height: 50%; }
   #plan .plan-all {
-    margin-top: -150px; } }
+    margin-top: -300px; }
+  #plan .inno-text {
+    font-size: 18px; }
+  #plan .inno-pos {
+    margin-top: 150px; }
+  #plan .btn-download {
+    padding: 8px;
+    margin: -20px 15px 17px 15px; } }

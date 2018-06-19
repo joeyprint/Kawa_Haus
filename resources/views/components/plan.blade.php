@@ -60,15 +60,67 @@
                                 <div class="owl-stage">
                                     <div class="owl-item plan-block">
                                         <img class="plan-size plan-pos" src="{{ asset('/imgs/plan1A.png') }}" alt="plan 1A">
+                                        <div class="row justify-content-center inno-pos">
+                                            <div class="col-6 col-lg-2 text-center">
+                                                <img class="inno-size" src="{{ asset('/imgs/counter_kitchen_icon.png') }}" alt="kitchen">
+                                                <p class="text-uppercase inno-text">COUNTER KITCHEN</p>
+                                            </div>
+                                            <div class="col-6 col-lg-2 text-center">
+                                                <img class="inno-size" src="{{ asset('/imgs/iconplan-livingspace.svg') }}" alt="living space">
+                                                <p class="text-uppercase inno-text">LIVING SPACE WITH BALCONY WINDOW</p>
+                                            </div>
+                                        </div>
                                     </div>
                                     <div class="owl-item plan-block">
                                         <img class="plan-size plan-pos" src="{{ asset('/imgs/plan1E.png') }}" alt="plan 1E">
+                                        <div class="row justify-content-center inno-pos">
+                                            <div class="col-6 col-lg-2 text-center">
+                                                <img class="inno-size" src="{{ asset('/imgs/iconplan-closekitchen.svg') }}" alt="closed kitchen">
+                                                <p class="text-uppercase inno-text">CLOSED KITCHEN</p>
+                                            </div>
+                                            <div class="col-6 col-lg-2 text-center">
+                                                <img class="inno-size" src="{{ asset('/imgs/walkin_icon.png') }}" alt="Walk-in Closet">
+                                                <p class="text-uppercase inno-text">WALK-IN CLOSET</p>
+                                            </div>
+                                            <div class="col-6 col-lg-2 text-center">
+                                                <img class="inno-size" src="{{ asset('/imgs/iconplan-livingspace.svg') }}" alt="living space">
+                                                <p class="text-uppercase inno-text">LIVING SPACE WITH BALCONY WINDOW</p>
+                                            </div>
+                                        </div>
                                     </div>
                                     <div class="owl-item plan-block">
                                         <img class="plan-size plan-pos" src="{{ asset('/imgs/plan2B.png') }}" alt="plan 2B">
+                                        <div class="row justify-content-center inno-pos">
+                                            <div class="col-6 col-lg-2 text-center">
+                                                <img class="inno-size" src="{{ asset('/imgs/iconplan-closekitchen.svg') }}" alt="closed kitchen">
+                                                <p class="text-uppercase inno-text">CLOSED KITCHEN</p>
+                                            </div>
+                                            <div class="col-6 col-lg-2 text-center">
+                                                <img class="inno-size" src="{{ asset('/imgs/iconplan-duelwashroom.svg') }}" alt="Walk-in Closet">
+                                                <p class="text-uppercase inno-text">WALK-IN CLOSET</p>
+                                            </div>
+                                            <div class="col-6 col-lg-2 text-center">
+                                                <img class="inno-size" src="{{ asset('/imgs/iconplan-livingspace.svg') }}" alt="living space">
+                                                <p class="text-uppercase inno-text">LIVING SPACE WITH BALCONY WINDOW</p>
+                                            </div>
+                                        </div>
                                     </div>
                                     <div class="owl-item plan-block">
                                         <img class="plan-size plan-pos" src="{{ asset('/imgs/plan2D.png') }}" alt="plan 2D">
+                                        <div class="row justify-content-center inno-pos">
+                                            <div class="col-6 col-lg-2 text-center">
+                                                <img class="inno-size" src="{{ asset('/imgs/iconplan-closekitchen.svg') }}" alt="closed kitchen">
+                                                <p class="text-uppercase inno-text">CLOSED KITCHEN</p>
+                                            </div>
+                                            <div class="col-6 col-lg-2 text-center">
+                                                <img class="inno-size" src="{{ asset('/imgs/iconplan-bathtup.svg') }}" alt="BATHTUB">
+                                                <p class="text-uppercase inno-text">BATHTUB</p>
+                                            </div>
+                                            <div class="col-6 col-lg-2 text-center">
+                                                <img class="inno-size" src="{{ asset('/imgs/iconplan-livingspace.svg') }}" alt="living space">
+                                                <p class="text-uppercase inno-text">LIVING SPACE WITH BALCONY WINDOW</p>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -90,6 +142,19 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+    <div class="container-fluid pos-for-watermask">
+        <div class="row justify-content-center">
+            <div class="col-12 col-lg-3 text-center btn-download">
+                <p class="no-margin">ดาวน์โหลดแปลนอาคาร</p>
+            </div>
+            <div class="col-12 col-lg-3 text-center btn-download">
+                <p class="no-margin">ดาวน์โหลดแปลนห้อง</p>
+            </div>
+        </div>
+        <div class="row">
+            <img class="d-none d-lg-block water-mask-left" src="{{ asset('/imgs/kawa_water.png') }}" alt="water mask">
         </div>
     </div>
 </section>

@@ -31,7 +31,7 @@
 
     .type-plan {
         margin-bottom: 75px;
-        z-index: -1;
+        z-index: 999;
     }
 
     .line {
@@ -41,18 +41,19 @@
     }
 
     .owl-carousel {
-        z-index: 100;
+        z-index: 50;
     }
 
     .plan-size {
-        width: auto;
-        height: 100%;
+        width: 100%;
+        height: auto;
     }
 
     .plan-block {
         position: relative;
         width: 100%;
-        height: 50vh;
+        height: 100%;
+        overflow: visible;
     }
 
     .plan-pos {
@@ -70,7 +71,54 @@
 
     .plan-all {
         position: relative;
-        margin-top: -70px;
+        margin-top: -250px;
+    }
+
+    .inno-text {
+        color: #989898;
+        font-size: 12px;
+        margin: 10px 0px;
+        line-height: 1;
+    }
+
+    .inno-size {
+        height: 30px;
+        width: auto;
+        display: initial;
+    }
+
+    .inno-pos {
+        position: relative;
+        top: 500px; 
+    }
+
+    .btn-download {
+        background-color: $green-mint;
+        color: $white;
+        font-family: $font-komol;
+        font-size: 24px;
+        padding: 10px;
+        margin-top: 17px;
+        cursor: pointer;
+
+        &:nth-child(2) {
+            margin-bottom: 17px;
+        }
+    }
+
+    .btn-download:hover {
+        background-color: #506b51;
+    }
+
+    .pos-for-watermask {
+        position: relative;
+    }
+
+    .water-mask-left {
+        position: absolute;
+        left: 0%;
+        top: 0%;
+        transform: rotate(-90deg);
     }
     
     @media (min-width: 992px) {
@@ -99,16 +147,29 @@
         }
 
         .plan-block {
-            height: 95vh;
+            z-index: -1;
         }
 
         .plan-size {
             width: auto;
-            height: 100%;
+            height: 50%;
         }
 
         .plan-all {
-            margin-top: -150px;
+            margin-top: -300px;
+        }
+
+        .inno-text {
+            font-size: 18px;
+        }
+
+        .inno-pos {
+            margin-top: 150px;
+        }
+
+        .btn-download {
+            padding: 8px;
+            margin: -20px 15px 17px 15px;
         }
     }
 }
