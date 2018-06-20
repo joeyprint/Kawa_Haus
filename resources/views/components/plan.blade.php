@@ -146,10 +146,10 @@
     </div>
     <div class="container-fluid pos-for-watermask">
         <div class="row justify-content-center">
-            <div class="col-12 col-lg-3 text-center btn-download">
+            <div class="col-8 col-lg-3 text-center btn-download">
                 <p class="no-margin">ดาวน์โหลดแปลนอาคาร</p>
             </div>
-            <div class="col-12 col-lg-3 text-center btn-download">
+            <div class="col-8 col-lg-3 text-center btn-download">
                 <p class="no-margin">ดาวน์โหลดแปลนห้อง</p>
             </div>
         </div>
