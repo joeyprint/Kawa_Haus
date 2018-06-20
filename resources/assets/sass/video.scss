@@ -1,0 +1,82 @@
+@import 'variables';
+
+#vdo {
+    .bg-vdo {
+        position: relative;
+        margin: 50px auto 100px auto;
+        background-color: #d3d3d3;
+        width: 100%;
+        height: 415px;
+    }
+
+    .all-video {
+        position: absolute;
+        top: -5%;
+    }
+
+    .vdo-block {
+        margin-bottom: 15px;
+    }
+
+    .icon {
+        width: 32px;
+        height: auto;
+    }
+
+    .link-text {
+        color: #000;
+        text-decoration: none;
+    }
+
+    .link-text:hover {
+        text-decoration: none !important;
+    }
+
+    .text-pos {
+        position: relative;
+        top: 10px;
+        margin: 0px 15px;
+    }
+
+    .door-icon-pos {
+        position: relative;
+        top: 5px;
+    }
+
+    .vdowalk-text {
+        display: block;
+        margin: 10px auto;
+    }
+
+    @media (min-width: 992px) {
+        .bg-vdo {
+            margin: 100px auto;
+        }
+
+        .all-video {
+            position: inherit;
+        }
+
+        .link-text {
+            font-size: 20px;
+            letter-spacing: 1.5;
+        }
+
+        .vdo-block {
+            position: relative;
+            margin: auto 15px;
+        }
+
+        a.vdo-pos1 {            
+            position: relative;
+            left: 0;
+            top: -20;
+        }
+        
+        a.vdo-pos2 {
+            position: absolute;
+            left: 0;
+            top: -40;
+        }
+    }
+}

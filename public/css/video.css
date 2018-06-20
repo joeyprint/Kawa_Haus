@@ -1,0 +1,86 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'Conv_db_helvethaica_x_med_ext_v3.2-webfont';
+  src: url("/fonts/db_helvethaica_x_med_ext_v3.2-webfont.eot");
+  src: local("☺"), url("/fonts/db_helvethaica_x_med_ext_v3.2-webfont.woff") format("woff"), url("/fonts/db_helvethaica_x_med_ext_v3.2-webfont.ttf") format("truetype"), url("/fonts/db_helvethaica_x_med_ext_v3.2-webfont.svg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Conv_db_helvethaica_x-webfont';
+  src: url("/fonts/db_helvethaica_x-webfont.eot");
+  src: local("☺"), url("/fonts/db_helvethaica_x-webfont.woff") format("woff"), url("/fonts/db_helvethaica_x-webfont.ttf") format("truetype"), url("/fonts/db_helvethaica_x-webfont.svg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Conv_akzidgrocffex-webfont';
+  src: url("/fonts/akzidgrocffex-webfont.eot");
+  src: local("☺"), url("/fonts/akzidgrocffex-webfont.woff") format("woff"), url("/fonts/akzidgrocffex-webfont.ttf") format("truetype"), url("/fonts/akzidgrocffex-webfont.svg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Conv_db_komol_x_demi_v3.2-webfont';
+  src: url("/fonts/db_komol_x_demi_v3.2-webfont.eot");
+  src: local("☺"), url("/fonts/db_komol_x_demi_v3.2-webfont.woff") format("woff"), url("/fonts/db_komol_x_demi_v3.2-webfont.ttf") format("truetype"), url("/fonts/db_komol_x_demi_v3.2-webfont.svg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+#vdo .bg-vdo {
+  position: relative;
+  margin: 50px auto 100px auto;
+  background-color: #d3d3d3;
+  width: 100%;
+  height: 415px; }
+
+#vdo .all-video {
+  position: absolute;
+  top: -5%; }
+
+#vdo .vdo-block {
+  margin-bottom: 15px; }
+
+#vdo .icon {
+  width: 32px;
+  height: auto; }
+
+#vdo .link-text {
+  color: #000;
+  text-decoration: none; }
+
+#vdo .link-text:hover {
+  text-decoration: none !important; }
+
+#vdo .text-pos {
+  position: relative;
+  top: 10px;
+  margin: 0px 15px; }
+
+#vdo .door-icon-pos {
+  position: relative;
+  top: 5px; }
+
+#vdo .vdowalk-text {
+  display: block;
+  margin: 10px auto; }
+
+@media (min-width: 992px) {
+  #vdo .bg-vdo {
+    margin: 100px auto; }
+  #vdo .all-video {
+    position: inherit; }
+  #vdo .link-text {
+    font-size: 20px;
+    letter-spacing: 1.5; }
+  #vdo .vdo-block {
+    position: relative;
+    margin: auto 15px; }
+  #vdo a.vdo-pos1 {
+    position: relative;
+    left: 0;
+    top: -20; }
+  #vdo a.vdo-pos2 {
+    position: absolute;
+    left: 0;
+    top: -40; } }

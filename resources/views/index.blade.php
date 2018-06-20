@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="{{ asset('/css/highlight.css') }}">
     <link rel="stylesheet" href="{{ asset('/css/innovation.css') }}">
     <link rel="stylesheet" href="{{ asset('/css/plan.css') }}">
+    <link rel="stylesheet" href="{{ asset('/css/video.css') }}">
 @endsection
 
 @section('content')
@@ -20,6 +21,7 @@
     @include('components.highlight')
     @include('components.innovation')
     @include('components.plan')
+    @include('components.video')
 @endsection
 
 @section('custom_script')
