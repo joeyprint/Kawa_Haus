@@ -1,7 +1,6 @@
-var owl = $('.owl-carousel');
+var owl = $('#plan .owl-carousel');
 
 owl.owlCarousel({
-    center: true,    
     items: 1,
     loop: true,
     margin: 0,

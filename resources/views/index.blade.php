@@ -28,4 +28,5 @@
 
 @section('custom_script')
     <script src="{{ asset('/js/plan.js') }}"></script>
+    <script src="{{ asset('/js/gallery.js') }}"></script>
 @endsection

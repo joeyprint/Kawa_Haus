@@ -152,9 +152,17 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="owl-nav">
-                                <div class="owl-prev">prev</div>
-                                <div class="owl-next">next</div>
+                            <div class="owl-nav d-none d-lg-block">
+                                <div class="owl-prev">
+                                    <i class="fas fa-arrow-left"></i>
+                                </div>
+                                <div class="owl-nav-text">
+                                    <span id="page"></span>
+                                    <span>| &nbsp;&nbsp;&nbsp;4</span>
+                                </div>
+                                <div class="owl-next">
+                                    <i class="fas fa-arrow-right"></i>
+                                </div>
                             </div>
                             <div class="owl-dots disabled">
                                 <div class="owl-dot active"><span></span></div>
@@ -219,7 +227,7 @@
                         </div>
                     </div>
                     <div class="col-6 col-lg-5">
-                        <div class="owl-carousel owl-theme owl-loaded">
+                        <div class="owl-carousel owl-theme owl-loaded carousel-6">
                             <div class="owl-stage-outer">
                                 <div class="owl-stage">
                                     <div class="owl-item">
@@ -258,7 +266,7 @@
                 </div>
                 <div class="row no-gutters">
                     <div class="col-3 col-lg-4">
-                        <div class="owl-carousel owl-theme owl-loaded">
+                        <div class="owl-carousel owl-theme owl-loaded carousel-78">
                             <div class="owl-stage-outer">
                                 <div class="owl-stage">
                                     <div class="owl-item">
@@ -295,7 +303,7 @@
                         </div>
                     </div>
                     <div class="col-5 col-lg-5">
-                        <div class="owl-carousel owl-theme owl-loaded">
+                        <div class="owl-carousel owl-theme owl-loaded carousel-78">
                             <div class="owl-stage-outer">
                                 <div class="owl-stage">
                                     <div class="owl-item">
@@ -320,9 +328,17 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="owl-nav disabled">
-                                <div class="owl-prev">prev</div>
-                                <div class="owl-next">next</div>
+                            <div class="owl-nav d-block d-lg-none">
+                                <div class="owl-prev">
+                                    <i class="fas fa-arrow-left"></i>
+                                </div>
+                                <div class="owl-nav-text">
+                                    <span id="page"></span>
+                                    <span>| &nbsp;&nbsp;&nbsp;4</span>
+                                </div>
+                                <div class="owl-next">
+                                    <i class="fas fa-arrow-right"></i>
+                                </div>
                             </div>
                             <div class="owl-dots disabled">
                                 <div class="owl-dot active"><span></span></div>
