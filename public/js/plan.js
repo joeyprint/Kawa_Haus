@@ -20,7 +20,19 @@ plan.owlCarousel({
     }
 });
 
-$('.owl-forward').click(function() {
+$("#plan-option-mobile").on('change', function() {
+    var value = $(this).val();
+    console.log(value);
+    plan.trigger('to.owl.carousel', value-1);
+});
+
+$(".plan-option-desktop").click(function() {
+    var value = $(this).attr('value');
+    console.log(value);
+    plan.trigger('to.owl.carousel', value-1);
+});
+
+$('div.owl-forward').click(function() {
     plan.trigger('next.owl.carousel');
 })
 

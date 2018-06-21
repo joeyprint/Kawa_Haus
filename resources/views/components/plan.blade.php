@@ -16,27 +16,27 @@
             <div class="row d-block d-lg-none type-plan">
                 <div class="d-flex flex-row justify-content-center">
                     <div class="col-10">
-                        <select class="select-btn" name="plan" id="plan">
-                            <option class="option-text" value="1A" data-hash="zero">TYPE 1A-1 33.50-34.00SQ.M </option>
-                            <option class="option-text" value="1E" data-hash="one">TYPE 1E-2 35.75-36.00SQ.M</option>
-                            <option class="option-text" value="2B" data-hash="two">TYPE 2B-2 51.25SQ.M</option>
-                            <option class="option-text" value="2D" data-hash="three">TYPE 2D-2-67.25SQ.M</option>
+                        <select class="select-btn" name="plan" id="plan-option-mobile">
+                            <option class="option-text" value="1">TYPE 1A-1 33.50-34.00SQ.M </option>
+                            <option class="option-text" value="2">TYPE 1E-2 35.75-36.00SQ.M</option>
+                            <option class="option-text" value="3">TYPE 2B-2 51.25SQ.M</option>
+                            <option class="option-text" value="4">TYPE 2D-2-67.25SQ.M</option>
                         </select>
                     </div>
                 </div>
             </div>
             <div class="row d-none d-lg-block type-plan">
                 <div class="d-flex flex-row justify-content-center">
-                    <div class="text-center col-3" data-hash="0">
+                    <div class="text-center col-3 plan-option-desktop" value="1">
                         <p class="option-text">TYPE 1A-1 33.50-34.00SQ.M</p>
                     </div>
-                    <div class="text-center col-3" data-hash="one">
+                    <div class="text-center col-3 plan-option-desktop" value="2">
                         <p class="option-text">TYPE 1E-2 35.75-36.00SQ.M</p>
                     </div>
-                    <div class="text-center col-3" data-hash="two">
+                    <div class="text-center col-3 plan-option-desktop" value="3">
                         <p class="option-text">TYPE 2B-2 51.25SQ.M</p>
                     </div>
-                    <div class="text-center col-3" data-hash="three">
+                    <div class="text-center col-3 plan-option-desktop" value="4">
                         <p class="option-text">TYPE 2D-2-67.25SQ.M</p>
                     </div>
                 </div>
