@@ -75,6 +75,17 @@ body {
 #footer {
   z-index: -1;
   width: 100%; }
+  #footer .block-green {
+    background-color: #2db925;
+    height: 5px; }
+  #footer .taka-block {
+    background-color: #f05133;
+    font-size: 25px;
+    color: #fff; }
+  #footer .oka-block {
+    background-color: #f5a900;
+    font-size: 25px;
+    color: #fff; }
   #footer .padding-follow {
     padding: 35px 0px 10px 0px; }
   #footer .padding-allproject {
@@ -103,9 +114,15 @@ body {
   #footer .img-callcenter {
     margin: 20px;
     width: 92px; }
+  #footer .border-line {
+    border-top: 1px solid #fff; }
   @media (min-width: 992px) {
     #footer {
       z-index: 0; }
+      #footer .taka-block {
+        font-size: 45px; }
+      #footer .oka-block {
+        font-size: 45px; }
       #footer .padding-allproject {
         padding: 30px; }
       #footer .down-arrow {

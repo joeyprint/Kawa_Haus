@@ -64,6 +64,23 @@ body {
     z-index: -1;
     width: 100%;
 
+    .block-green {
+        background-color: #2db925;
+        height: 5px;
+    }
+
+    .taka-block {
+        background-color: #f05133;
+        font-size: 25px;
+        color: $white;
+    }
+    
+    .oka-block {
+        background-color: #f5a900;
+        font-size: 25px;
+        color: $white;
+    }
+
     .padding-follow {
         padding: 35px 0px 10px 0px;
     }
@@ -112,6 +129,10 @@ body {
         width: 92px;
     }
 
+    .border-line {
+        border-top: 1px solid $white;
+    }
+
     @media (min-width: 576px) {
 
     }
@@ -122,6 +143,14 @@ body {
 
     @media (min-width: 992px) { 
         z-index: 0;
+
+        .taka-block {
+            font-size: 45px;
+        }
+        
+        .oka-block {
+            font-size: 45px;
+        }
 
         .padding-allproject {
             padding: 30px;
