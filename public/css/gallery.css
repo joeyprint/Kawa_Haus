@@ -71,15 +71,13 @@
   position: relative;
   height: 137px;
   width: auto;
-  margin-right: 4px;
-  margin-top: 8px; }
+  margin-right: 4px; }
 
 #gallery .block4 {
   position: relative;
   height: 107px;
   width: 80%;
-  margin-left: 4px;
-  margin-top: 8px; }
+  margin-left: 4px; }
 
 #gallery .block5 {
   position: relative;
@@ -154,13 +152,11 @@
     #gallery .block3 {
       height: 334px;
       width: auto;
-      margin-right: 15px;
-      margin-top: 15px; }
+      margin-right: 15px; }
     #gallery .block4 {
       height: 190px;
       width: 225px;
-      margin-right: 15px;
-      margin-top: 15px; }
+      margin-right: 15px; }
     #gallery .block5 {
       height: 334px;
       width: auto;
