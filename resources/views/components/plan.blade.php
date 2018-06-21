@@ -129,12 +129,12 @@
                     <div class="col-12 arrow-pos">
                         <div class="row">
                             <div class="col-6 text-left">
-                                <div class="owl-prev">
+                                <div class="owl-previous mouse-hover">
                                     <img src="{{ asset('/imgs/arrow_left.png') }}" alt="prev">
                                 </div>
                             </div>
                             <div class="col-6 text-right">
-                                <div class="owl-next">
+                                <div class="owl-forward mouse-hover">
                                     <img src="{{ asset('/imgs/arrow_right.png') }}" alt="next">
                                 </div>
                             </div>

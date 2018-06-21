@@ -47,10 +47,10 @@ owl.on('translate.owl.carousel', function(props) {
     $('#page').html((currentPage + 1) + "&nbsp;&nbsp;&nbsp;");
 });
 
-// $('.owl-next').click(function() {
-//     owl.trigger('next.owl.carousel');
-// })
+$('.owl-next').click(function() {
+    owl.trigger('next.owl.carousel');
+})
 
-// $('.owl-prev').click(function() {
-//     owl.trigger('prev.owl.carousel', [300]);
-// })
+$('.owl-prev').click(function() {
+    owl.trigger('prev.owl.carousel', [300]);
+})

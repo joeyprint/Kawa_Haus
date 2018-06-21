@@ -105,6 +105,9 @@
   position: absolute;
   top: 50%; }
 
+#plan .mouse-hover {
+  cursor: pointer; }
+
 #plan .btn-download {
   background-color: #83a381;
   color: #fff;

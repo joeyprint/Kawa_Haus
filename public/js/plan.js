@@ -1,11 +1,15 @@
-var owl = $('#plan .owl-carousel');
+var plan = $('#plan .owl-carousel');
 
-owl.owlCarousel({
+$(document).ready(function() {
+    $(".owl-carousel").owlCarousel();
+});
+
+plan.owlCarousel({
     items: 1,
     loop: true,
     margin: 0,
     nav: true,
-    navClass: ['.owl-prev', 'owl-next'],
+    navClass: ['.owl-previous', 'owl-forward'],
     autoWidth: false,
     URLhashListener:true,
     startPosition: 0,
@@ -16,10 +20,10 @@ owl.owlCarousel({
     }
 });
 
-$('.owl-next').click(function() {
-    owl.trigger('next.owl.carousel');
+$('.owl-forward').click(function() {
+    plan.trigger('next.owl.carousel');
 })
 
-$('.owl-prev').click(function() {
-    owl.trigger('prev.owl.carousel', [300]);
+$('.owl-previous').click(function() {
+    plan.trigger('prev.owl.carousel', [300]);
 })
