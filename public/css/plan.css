@@ -59,6 +59,10 @@
   position: relative;
   top: -7px; }
 
+#plan .carousel-pos {
+  position: relative;
+  top: -50px; }
+
 #plan .owl-carousel {
   z-index: 50; }
 
@@ -69,23 +73,22 @@
 #plan .plan-block {
   position: relative;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   overflow: visible; }
 
 #plan .plan-pos {
   position: absolute;
-  top: 50%;
+  top: 0%;
   left: 50%;
-  transform: translate(-50%, -50%); }
+  transform: translate(-50%, 0%); }
 
 #plan .arrow-pos {
   position: absolute;
-  top: 50%;
+  top: 25%;
   transform: translate(0%, -50%); }
 
 #plan .plan-all {
-  position: relative;
-  margin-top: -250px; }
+  height: 65vh; }
 
 #plan .inno-text {
   color: #989898;
@@ -99,8 +102,8 @@
   display: initial; }
 
 #plan .inno-pos {
-  position: relative;
-  top: 500px; }
+  position: absolute;
+  top: 50%; }
 
 #plan .btn-download {
   background-color: #83a381;
@@ -140,17 +143,27 @@
     cursor: pointer; }
   #plan .option-text:hover {
     text-decoration: underline #000; }
+  #plan .carousel-pos {
+    position: relative;
+    top: -100px; }
   #plan .plan-block {
+    height: 100%;
     z-index: -1; }
   #plan .plan-size {
     width: auto;
-    height: 50%; }
+    height: 75%; }
+  #plan .plan-pos {
+    top: 0% !important;
+    left: 50%;
+    transform: translate(-50%, 0%) !important; }
   #plan .plan-all {
-    margin-top: -300px; }
+    height: 500px; }
   #plan .inno-text {
     font-size: 18px; }
   #plan .inno-pos {
-    margin-top: 150px; }
+    top: 90% !important;
+    left: 50%;
+    transform: translate(-50%, -50%) !important; }
   #plan .btn-download {
     padding: 8px;
     margin: -20px 15px 17px 15px; } }
