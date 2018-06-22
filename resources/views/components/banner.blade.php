@@ -23,7 +23,7 @@
         </div>
         <div class="row no-gutters d-none d-lg-block banner-block">
             <div class="col-12 img-block">
-                <img class="img-banner" src="{{ asset('/imgs/banner.png') }}" alt="banner" width="100%">
+                <img class="img-banner zoomPicIn" src="{{ asset('/imgs/banner.png') }}" alt="banner" width="100%">
             </div>
         </div>
         <div class="row no-gutters concept-box d-none d-lg-block">

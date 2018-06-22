@@ -1,6 +1,8 @@
 @import 'variables';
 
 #banner {
+    padding-top: 90px;
+
     .banner-block {
         border: 5px solid $blue-sea !important;
     }
@@ -81,7 +83,11 @@
         }
 
         .img-block {
-            height: 630px !important;
+            height: 610px !important;
+        }
+
+        .zoomPicIn {
+            animation: zoomIn 10s 1 forwards;
         }
 
         .concept-box {

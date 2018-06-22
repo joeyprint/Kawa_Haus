@@ -17,12 +17,13 @@ $(document).ready(function() {
 
         // Check window scroll top
         // console.log('win scroll'+ $(window).scrollTop());
-        
-        if( $(window).scrollTop() >= 150 ) {
-            $('#nav-sansiri').slideUp();
-        } 
-        else if ( $(window).scrollTop() < 150 ) {
-            $('#nav-sansiri').slideDown();
+        if( $(window).width() >= 992 ) {
+            if( $(window).scrollTop() >= 150 ) {
+                $('#nav-sansiri').slideUp();
+            } 
+            else if ( $(window).scrollTop() < 150 ) {
+                $('#nav-sansiri').slideDown();
+            }
         }
 
         if($(window).scrollTop() >= $('#banner').offset().top) {
