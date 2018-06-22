@@ -78,30 +78,32 @@
   cursor: pointer; }
 
 @media (min-width: 992px) {
-  #banner .banner-block {
-    position: relative;
-    border: 8px solid #006783 !important; }
-  #banner .img-block {
-    height: 630px !important; }
-  #banner .concept-box {
-    z-index: 1;
-    position: absolute;
-    top: 250px;
-    right: 8px; }
-  #banner .concept {
-    background-color: rgba(0, 0, 0, 0.7);
-    padding: 20px; }
-  #banner .kawa-text {
-    font-size: 40px; }
-  #banner .sub-text {
-    font-size: 25px; }
-  #banner .des-text {
-    font-size: 22px; }
-  #banner .line {
-    margin: 10px 0px 13px 0px; }
-  #banner .regis-pos {
-    position: relative;
-    top: 20px;
-    right: 20px; }
-  #banner .bg-regis:hover {
-    background-color: #04424e; } }
+  #banner {
+    padding-top: 175.8px; }
+    #banner .banner-block {
+      position: relative;
+      border: 8px solid #006783 !important; }
+    #banner .img-block {
+      height: 630px !important; }
+    #banner .concept-box {
+      z-index: 1;
+      position: absolute;
+      top: 250px;
+      right: 8px; }
+    #banner .concept {
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 20px; }
+    #banner .kawa-text {
+      font-size: 40px; }
+    #banner .sub-text {
+      font-size: 25px; }
+    #banner .des-text {
+      font-size: 22px; }
+    #banner .line {
+      margin: 10px 0px 13px 0px; }
+    #banner .regis-pos {
+      position: relative;
+      top: 20px;
+      right: 20px; }
+    #banner .bg-regis:hover {
+      background-color: #04424e; } }

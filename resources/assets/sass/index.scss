@@ -2,6 +2,7 @@
 
 body {
     font-family: $font-helvethaicaMed, Sans-Serif;
+    position: relative;
 }
 
 .no-margin {
@@ -13,6 +14,14 @@ body {
 }
 
 #navbar {
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    
+    #nav-sansiri {
+        display: none;
+    }
+
     .navbar-main {
         padding: inherit;
         z-index: 1000;
@@ -39,24 +48,34 @@ body {
         height: 30px;
     }
 
-    .menu {
+    .menu:link {
         color: #efefef;
         font-size: 20px;
         padding: 0px 15px;
     }
 
-    .menu:active {
+    .menu:visited {
         color: $white;
     }
-
+    
     .menu:hover {
         color: $white;
     }
-
+    
+    .menu:active {
+        color: #efefef;
+    }
+    
     .change-menu {
         background-color: $white;
         color: #303030;
         width: 65px;
+    }
+
+    @media (min-width: 992px) {
+        #nav-sansiri {
+            display: block;
+        }
     }
 }
 

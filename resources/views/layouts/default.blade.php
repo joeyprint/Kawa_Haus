@@ -23,8 +23,8 @@
         <script src="{{ asset('/js/bootstrap.min.js') }}"></script>
         <script src="{{ asset('/js/fontawesome.min.js') }}"></script>
         <script src="{{ asset('/js/owl.carousel.js') }}"></script>
-        {{-- <script src="{{ asset('/js/owl.navigation.js') }}"></script> --}}
         <script src="{{ asset('/js/owl.animate.js') }}"></script>
+        <script src="{{ asset('/js/default-all.js') }}"></script>
         
         {{-- custom_script --}}
         @yield('custom_script')

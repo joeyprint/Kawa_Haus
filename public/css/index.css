@@ -28,7 +28,8 @@
   font-style: normal; }
 
 body {
-  font-family: "Conv_db_helvethaica_x_med_ext_v3.2-webfont", Sans-Serif; }
+  font-family: "Conv_db_helvethaica_x_med_ext_v3.2-webfont", Sans-Serif;
+  position: relative; }
 
 .no-margin {
   margin: 0; }
@@ -36,41 +37,43 @@ body {
 .no-padding {
   padding: 0; }
 
-#navbar .navbar-main {
-  padding: inherit;
-  z-index: 1000; }
-
-#navbar .paddingTB18 {
-  padding: 18px 0px; }
-
-#navbar .navbar-bg {
-  background-color: #83a381; }
-
-#navbar .line {
-  border-bottom: 1.5px solid #fff; }
-
-#navbar .navbar {
-  padding: 25px 0px; }
-
-#navbar .logo-size {
-  width: auto;
-  height: 30px; }
-
-#navbar .menu {
-  color: #efefef;
-  font-size: 20px;
-  padding: 0px 15px; }
-
-#navbar .menu:active {
-  color: #fff; }
-
-#navbar .menu:hover {
-  color: #fff; }
-
-#navbar .change-menu {
-  background-color: #fff;
-  color: #303030;
-  width: 65px; }
+#navbar {
+  position: fixed;
+  z-index: 999;
+  width: 100%; }
+  #navbar #nav-sansiri {
+    display: none; }
+  #navbar .navbar-main {
+    padding: inherit;
+    z-index: 1000; }
+  #navbar .paddingTB18 {
+    padding: 18px 0px; }
+  #navbar .navbar-bg {
+    background-color: #83a381; }
+  #navbar .line {
+    border-bottom: 1.5px solid #fff; }
+  #navbar .navbar {
+    padding: 25px 0px; }
+  #navbar .logo-size {
+    width: auto;
+    height: 30px; }
+  #navbar .menu:link {
+    color: #efefef;
+    font-size: 20px;
+    padding: 0px 15px; }
+  #navbar .menu:visited {
+    color: #fff; }
+  #navbar .menu:hover {
+    color: #fff; }
+  #navbar .menu:active {
+    color: #efefef; }
+  #navbar .change-menu {
+    background-color: #fff;
+    color: #303030;
+    width: 65px; }
+  @media (min-width: 992px) {
+    #navbar #nav-sansiri {
+      display: block; } }
 
 #footer {
   z-index: -1;
