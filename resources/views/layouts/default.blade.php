@@ -16,6 +16,7 @@
     </head>
 
     <body>
+        
         @include('utils.navbar')
 
         {{-- content --}}
@@ -27,7 +28,14 @@
         <script src="{{ asset('/js/owl.carousel.js') }}"></script>
         <script src="{{ asset('/js/owl.animate.js') }}"></script>
         <script src="{{ asset('/js/aos.js') }}"></script>
-        
+        <script>
+            $(function(){
+                AOS.init();
+            });
+            $(window).on('load',function(){
+                AOS.refresh();
+            });
+        </script>
         <script src="{{ asset('/js/default-all.js') }}"></script>
 
         {{-- custom_script --}}

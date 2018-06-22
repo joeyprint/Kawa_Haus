@@ -1,5 +1,5 @@
 <section id="regis">
-    <div class="container">
+    <div class="container" data-aos="fade-up" data-aos-duration="1200">
         <div class="row justify-content-center text-center">
             <div class="col-12">
                 <p class="topic-text no-margin">ลงทะเบียนรับส่วนลดสูงสุด 50,000 บาท*</p>

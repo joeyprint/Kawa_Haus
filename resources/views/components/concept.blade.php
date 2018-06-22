@@ -2,7 +2,7 @@
     <div class="container concept-area">
         <div class="row">
             <div class="col-lg-1 d-none d-lg-block"></div>
-            <div class="col-12 col-lg-4">
+            <div class="col-12 col-lg-4" data-aos="fade-up" data-aos-offset="150">
                 <div class="row">
                     <div class="d-flex justify-content-start w-100">
                         <div class="col-10 col-lg-7 topic-box">
@@ -21,7 +21,7 @@
                     <div class="col-10 col-lg-7 line"></div>
                 </div>
             </div>
-            <div class="col-12 col-lg-6 story-box">
+            <div class="col-12 col-lg-6 story-box" data-aos="fade-up" data-aos-offset="200">
                 <p class="story-text font-weight-bold">LIVE A GOOD STORY</p>
                 <p class="des-text text-center">ท่ามกลางความเร่งรีบของคนเมืองธรรมชาติยังเป็นสิ่งหนึ่งที่ช่วยสร้างเรื่องราวดีๆของ
                     ชีวิตภายใต้ร่มเงาของต้นไม้ใหญ่และความสดชื่นของชีวิตริมน้ำในขณะที่ทุกความสะดวก

@@ -1,6 +1,6 @@
 <section id="contact">
     <div class="container">
-        <div class="row justify-content-center d-block d-lg-none">
+        <div class="row justify-content-center d-block d-lg-none" data-aos="fade-up" data-aos-offset="150" data-aos-duration="3000" data-aos-once="true">
             <div class="col-12 text-center">
                 <img class="img-kawa-size" src="{{ asset('/imgs/logo_wave.png') }}" alt="kawa">
                 <span class="kawa-text">KAWA</span>
@@ -37,7 +37,7 @@
                 </div>
             </div>
         </div>
-        <div class="row d-none d-lg-block">
+        <div class="row d-none d-lg-block" data-aos="fade-up" data-aos-offset="150" data-aos-duration="3000" data-aos-once="true">
             <div class="d-flex flex-row justify-content-center">
                 <div class="col-lg-6">
                     <div class="col-lg-12 text-center">

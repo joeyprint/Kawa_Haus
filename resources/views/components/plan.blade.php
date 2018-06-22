@@ -1,4 +1,4 @@
-<section id="plan">
+<section id="plan" data-aos="fade-up" data-aos-once="true">
     <div class="container">
         <div class="row">
             <div class="col-12">

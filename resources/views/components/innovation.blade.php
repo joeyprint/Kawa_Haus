@@ -1,5 +1,5 @@
 <section id="innovation">
-    <div class="container">
+    <div class="container" data-aos="fade-up" data-aos-once="true">
         <div class="row justify-content-center row-innovation">
             <div class="col-4 col-lg-3 text-center">
                 <img src="{{ asset('/imgs/co-pantry_icon.png') }}" alt="co-pantry icon">
@@ -30,7 +30,7 @@
         </div>
     </div>
     <div class="container-fluid no-padding footer-innovation">
-        <div class="row no-gutters margin-wave">
+        <div class="row no-gutters margin-wave" data-aos="fade-up">
             <div class="col-12">
                 <img class="bg-linewave" src="{{ asset('/imgs/bg_water.png') }}" alt="wave line">
             </div>

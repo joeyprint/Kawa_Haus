@@ -1,4 +1,4 @@
-<section id="highlight">
+<section id="highlight" data-aos="fade-up" data-aos-once="true">
     <div class="container-fluid no-padding">
         <div class="row no-gutters">
             <div class="col-12">

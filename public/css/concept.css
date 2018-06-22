@@ -76,6 +76,8 @@
   @media (min-width: 992px) {
     #concept {
       height: 485px; }
+      #concept .topic-box {
+        margin-top: 18px; }
       #concept .concept-area {
         position: absolute;
         top: 50%;

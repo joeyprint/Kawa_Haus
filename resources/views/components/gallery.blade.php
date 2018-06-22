@@ -1,4 +1,4 @@
-<section id="gallery">
+<section id="gallery"  data-aos="fade-in" data-aos-duration="3000" data-aos-once="true">
     <div class="container-fluid no-padding">
         <div class="row justify-content-end no-gutters topic-block d-block d-lg-none">
             <div class="col-12">
