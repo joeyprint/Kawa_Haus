@@ -131,6 +131,8 @@
       bottom: 150px; }
     #highlight .menu-box:hover .subtopic-thaitext {
       visibility: visible; }
+  #highlight .menu-block.hideBox {
+    display: none; }
   #highlight .subtopic-text {
     position: absolute;
     bottom: 50px;

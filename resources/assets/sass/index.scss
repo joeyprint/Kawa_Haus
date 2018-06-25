@@ -263,3 +263,23 @@ body {
     0%   { transform: scale(1); }
     100% { transform: scale(1.2); }
 }
+
+@-webkit-keyframes expandBlock {
+    0% { width: 20vw; }
+    100% { width: 80vw; }
+}
+
+@keyframes expandBlock {
+    0% { width: 20vw; }
+    100% { width: 80vw; }
+}
+
+@-webkit-keyframes narrowBlock {
+    0% { width: 20vw; }
+    100% { width: 5vw; }
+}
+
+@keyframes narrowBlock {
+    0% { width: 20vw; }
+    100% { width: 5vw; }
+}

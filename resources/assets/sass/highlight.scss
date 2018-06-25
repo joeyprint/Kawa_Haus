@@ -136,16 +136,20 @@
             height: 100%;
             border-top: 5px solid $blue-sea;
             border-bottom: 5px solid $blue-sea;
-
+            
             .subtopic-text {
                 bottom: 150px;
             }
-
+            
             .subtopic-thaitext {
                 visibility: visible;
             }
         }
-        
+
+        .menu-block.hideBox{
+            display: none;
+        }
+
         .subtopic-text {
             position: absolute;
             bottom: 50px;
