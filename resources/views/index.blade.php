@@ -31,6 +31,7 @@
 @section('custom_script')
     <script src="{{ asset('/js/plan.js') }}"></script>
     <script src="{{ asset('/js/gallery.js') }}"></script>
+    <script src="{{ asset('/js/highlight.js') }}"></script>
     <script>
         var map;
         function initMap() {
