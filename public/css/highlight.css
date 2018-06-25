@@ -40,7 +40,7 @@
   background-size: cover;
   background-position: 0;
   overflow: hidden;
-  width: 100%;
+  width: auto;
   height: 470px;
   border-top: 5px solid #eaeaea;
   border-bottom: 5px solid #eaeaea; }
@@ -73,13 +73,32 @@
 #highlight .line {
   border-bottom: 1px solid #fff; }
 
+#highlight .arrow-display-lg {
+  display: none; }
+
+#highlight .arrow-display-xs {
+  display: inline; }
+
+#highlight .scroll {
+  color: #fff;
+  position: absolute;
+  right: 0;
+  margin-right: 20px; }
+  #highlight .scroll:nth-child(1) {
+    top: 80px; }
+  #highlight .scroll:nth-child(2) {
+    bottom: 15px; }
+
+#highlight .scroll-text {
+  padding: 10px; }
+
 @media (min-width: 992px) {
   #highlight .topic-text {
     text-align: right;
     margin-top: 30px;
     margin-right: 30px; }
   #highlight .box {
-    width: 100%;
+    width: auto;
     height: 745px; }
   #highlight .all-box {
     height: 100%;
@@ -92,11 +111,15 @@
         flex-direction: row; }
   #highlight .menu-section {
     position: relative;
-    width: 20%; }
+    height: 100%;
+    width: 20vw;
+    border-right: 1px solid #fff; }
+    #highlight .menu-section:nth-last-child() {
+      border-right: none; }
   #highlight .menu-box {
     position: absolute;
     bottom: 0;
-    width: 100%;
+    width: 20vw;
     height: 115px;
     padding: 10px;
     cursor: pointer; }
@@ -117,9 +140,26 @@
   #highlight .subtopic-thaitext {
     position: absolute;
     bottom: 50px;
-    font-size: 22px;
+    font-size: 20px;
     line-height: 1;
     padding: 10px;
     visibility: hidden; }
   #highlight .seemore-text {
-    padding: 10px; } }
+    padding: 10px; }
+  #highlight .arrow-display-lg {
+    display: inline; }
+  #highlight .arrow-display-xs {
+    display: none; }
+  #highlight .scroll {
+    bottom: 0 !important;
+    top: 70% !important;
+    transform: translate(0%, -50%);
+    cursor: pointer; }
+    #highlight .scroll:nth-child(1) {
+      left: 50px !important; }
+    #highlight .scroll:nth-child(2) {
+      right: 50px !important; }
+  #highlight .scroll-text {
+    font-size: 20px; }
+  #highlight .scroll-text:hover {
+    text-decoration: underline #fff; } }

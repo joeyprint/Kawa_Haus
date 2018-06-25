@@ -15,7 +15,7 @@
         background-size: cover;
         background-position: 0;
         overflow: hidden;
-        width: 100%;
+        width: auto;
         height: 470px;
         border-top: 5px solid #eaeaea;
         border-bottom: 5px solid #eaeaea;
@@ -55,6 +55,34 @@
         border-bottom: 1px solid $white;
     }
 
+    .arrow-display-lg {
+        display: none;
+    }
+
+    .arrow-display-xs {
+        display: inline;
+    }
+
+    .scroll {
+        color: $white;
+        position: absolute;
+        right: 0;
+        margin-right: 20px;
+        
+        &:nth-child(1) {
+            top: 80px;
+        }
+        
+        &:nth-child(2) {
+            bottom: 15px;
+        }
+    }
+
+    .scroll-text {
+        padding: 10px;
+        // margin: 20px;
+    }
+
     @media (min-width: 576px) {
 
     }
@@ -71,7 +99,7 @@
         }
 
         .box {
-            width: 100%;
+            width: auto;
             height: 745px;
         }
 
@@ -86,13 +114,19 @@
 
         .menu-section {
             position: relative;
-            width: 20%;
+            height: 100%;
+            width: 20vw;
+            border-right: 1px solid $white;
+
+            &:nth-last-child() {
+                border-right: none;
+            }
         }
         
         .menu-box {
             position: absolute;
             bottom: 0;
-            width: 100%;
+            width: 20vw;
             height: 115px;
             padding: 10px;
             cursor: pointer;
@@ -123,7 +157,7 @@
         .subtopic-thaitext {
             position: absolute;
             bottom: 50px;
-            font-size: 22px;
+            font-size: 20px;
             line-height: 1;
             padding: 10px;
             visibility: hidden;
@@ -131,6 +165,37 @@
     
         .seemore-text {
             padding: 10px;
+        }
+
+        .arrow-display-lg {
+            display: inline;
+        }
+
+        .arrow-display-xs {
+            display: none;
+        }
+
+        .scroll {
+            bottom: 0 !important;
+            top: 70% !important;
+            transform: translate(0%, -50%);
+            cursor: pointer;
+            
+            &:nth-child(1) {
+                left: 50px !important;
+            }
+            
+            &:nth-child(2) {
+                right: 50px !important;
+            }
+        }
+
+        .scroll-text {
+            font-size: 20px;
+        }
+
+        .scroll-text:hover {
+            text-decoration: underline $white;
         }
     }
 

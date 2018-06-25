@@ -6,7 +6,7 @@
             </div>
         </div>
         <div class="row box no-margin">
-            <div class="col-12 all-box no-padding">
+            <div class="all-box no-padding">
                 <div class="menu-section">
                     <div class="menu-box">
                         <p class="text-uppercase no-margin subtopic-text">CAMOUFLAGE ARCHITECTURE DESIGN</p>
@@ -87,6 +87,18 @@
                     </div>
                 </div>
                 <div class="d-block d-lg-none line"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="scroll">
+                <i class="arrow-display-lg fa fa-arrow-left"></i>
+                <span class="text-uppercase scroll-text">Previous</span>
+                <i class="arrow-display-xs fa fa-arrow-down"></i>
+            </div>
+            <div class="scroll">
+                <span class="text-uppercase scroll-text">Next</span>
+                <i class="arrow-display-lg fa fa-arrow-right"></i>
+                <i class="arrow-display-xs fa fa-arrow-up"></i>
             </div>
         </div>
     </div>
