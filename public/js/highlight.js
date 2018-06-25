@@ -87,6 +87,12 @@ $(document).ready(function () {
             });
         });
 
+        $('.menu-section').hover(function () {
+            $(this).css({
+                cursor : 'pointer'
+            })
+        });
+
         $('.menu-section').click(function() {
             $('.menu-section .menu-block').removeClass('hideBox');
             var index = $(this).data('id');
