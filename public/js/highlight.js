@@ -46,6 +46,50 @@ $(document).ready(function () {
             });
         });
 
+        $('.menu-section').click(function() {
+            var index = $(this).data('id');
+
+            if ( index > 1 && index <= 3 ) {
+                $('.all-box').animate({
+                    top: '0'
+                },{ 
+                    duration: 1000
+                });
+
+                $('.all-box').css({
+                    bottom: 'auto'
+                });
+            } else if ( index > 3 && index < 6 ) {
+                $('.all-box').animate({
+                    top: -50  * (index - 3) + 'px'
+                },{ 
+                    duration: 1000
+                });
+            } else if ( index >=6 && index <=8 ) {
+                $('.all-box').animate({
+                    bottom: '0'
+                },{ 
+                    duration: 1000
+                });
+
+                $('.all-box').css({
+                    top: 'auto'
+                });
+            }
+            
+            $('.menu-section').animate({
+                height: '50px'
+            },{
+                duration: 1000
+            });
+
+            $(this).animate({
+                height: '250px'
+            },{
+                duration: 1000
+            });
+        });
+
     } else {
         $('.scroll-next').click(function() {
             $('.all-box').animate({
@@ -87,22 +131,12 @@ $(document).ready(function () {
             });
         });
 
-        $('.menu-section').hover(function () {
-            $(this).css({
-                cursor : 'pointer'
-            })
-        });
-
         $('.menu-section').click(function() {
             $('div').removeClass('menu-box');
             $('.menu-section .menu-block').removeClass('hideBox');
             $('.menu-section .detail-box').addClass('detail-hide');
             var index = $(this).data('id');
             console.log(index);
-
-            $('.scroll').css({
-                display: 'none',
-            });
 
             if ( index > 1 && index <= 3 ) {
                 $('.all-box').animate({
@@ -175,5 +209,16 @@ $(document).ready(function () {
         });
     }
 
+    $('.menu-section').hover(function () {
+        $(this).css({
+            cursor : 'pointer'
+        })
+    });
+
+    $('.menu-section').click(function () {
+        $('.scroll').css({
+            display: 'none',
+        });
+    });
 });
 

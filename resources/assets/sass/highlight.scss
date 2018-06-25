@@ -23,6 +23,7 @@
     
     .all-box {
         position: absolute;
+        width: 100%;
         top: 0;
         left: 0;
     }
@@ -53,6 +54,7 @@
 
     .line {
         border-bottom: 1px solid $white;
+        width: 100%;
     }
 
     .arrow-display-lg {
@@ -119,6 +121,7 @@
         }
 
         .all-box {
+            width: auto;
             height: 100%;
             top: inherit;
             left: inherit;

@@ -47,6 +47,7 @@
 
 #highlight .all-box {
   position: absolute;
+  width: 100%;
   top: 0;
   left: 0; }
 
@@ -71,7 +72,8 @@
   width: auto; }
 
 #highlight .line {
-  border-bottom: 1px solid #fff; }
+  border-bottom: 1px solid #fff;
+  width: 100%; }
 
 #highlight .arrow-display-lg {
   display: none; }
@@ -114,6 +116,7 @@
     width: auto;
     height: 745px; }
   #highlight .all-box {
+    width: auto;
     height: 100%;
     top: inherit;
     left: inherit;
