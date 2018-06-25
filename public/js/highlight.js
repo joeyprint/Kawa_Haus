@@ -94,7 +94,9 @@ $(document).ready(function () {
         });
 
         $('.menu-section').click(function() {
+            $('div').removeClass('menu-box');
             $('.menu-section .menu-block').removeClass('hideBox');
+            $('.menu-section .detail-box').addClass('detail-hide');
             var index = $(this).data('id');
             console.log(index);
 
@@ -129,7 +131,7 @@ $(document).ready(function () {
                     left: 'auto'
                 });
             }
-
+            
             $('.menu-section').animate({
                 width: '3vw'
             },{
@@ -142,7 +144,8 @@ $(document).ready(function () {
                 duration: 1000
             });
 
-            $('div').removeClass('menu-box');
+            $(this).children().removeClass('detail-hide');
+
             $('.menu-section').css({
                 'background-color' : 'rgba(255, 255, 255, 0.5)'
             })

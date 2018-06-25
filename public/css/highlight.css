@@ -92,6 +92,19 @@
 #highlight .scroll-text {
   padding: 10px; }
 
+#highlight .detail-box {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 350px;
+  height: 350px;
+  top: 50%;
+  left: 3vw;
+  transform: translate(0%, -50%);
+  padding: 20px; }
+
+#highlight .detail-hide {
+  display: none; }
+
 @media (min-width: 992px) {
   #highlight .topic-text {
     text-align: right;
