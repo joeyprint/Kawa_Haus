@@ -49,10 +49,11 @@ $(document).ready(function () {
         $('.menu-section').click(function() {
             $('.menu-section .menu-block').removeClass('hideBox');
             $('.menu-section .detail-box').addClass('detail-hide');
+            $('.close-icon').addClass('detail-hide');
 
             var index = $(this).data('id');
 
-            if ( index > 1 && index <= 3 ) {
+            if ( index >= 1 && index <= 3 ) {
                 $('.all-box').animate({
                     top: '0'
                 },{ 
@@ -94,8 +95,13 @@ $(document).ready(function () {
                 })
             ).done(function () {
                 $(this)[1].find('.detail-box').removeClass('detail-hide');
+                $('.close-icon').removeClass('detail-hide');
                 // console.log(this);
+                $('.close-icon').css({
+                    top : 50 * (index-1)
+                });
             });
+
             
             $('.menu-block').css({
                 'background-color' : 'rgba(255, 255, 255, 0.8)',
@@ -110,6 +116,7 @@ $(document).ready(function () {
                 'bottom' : 'auto',
                 'font-size' : '20px',
             });
+
         });
 
     } else {
@@ -157,10 +164,12 @@ $(document).ready(function () {
             $('div').removeClass('menu-box');
             $('.menu-section .menu-block').removeClass('hideBox');
             $('.menu-section .detail-box').addClass('detail-hide');
+            $('.close-icon').addClass('detail-hide');
+            
             var index = $(this).data('id');
             console.log(index);
 
-            if ( index > 1 && index <= 3 ) {
+            if ( index >= 1 && index <= 3 ) {
                 $('.all-box').animate({
                     left: '0'
                 },{ 
@@ -176,6 +185,8 @@ $(document).ready(function () {
                 },{ 
                     duration: 1000
                 });
+
+                
             } else if ( index >=6 && index <=8 ) {
                 $('.all-box').animate({
                     right: '0'
@@ -187,20 +198,28 @@ $(document).ready(function () {
                     left: 'auto'
                 });
             }
-            
-            $('.menu-section').animate({
-                width: '3vw'
-            },{
-                duration: 1000
-            });
 
-            $(this).animate({
-                width: '88vw'
-            },{
-                duration: 1000
-            });
+            $.when(
+                $('.menu-section').animate({
+                    width: '3vw'
+                },{
+                    duration: 1000
+                }),
+                
+                $(this).animate({
+                    width: '88vw'
+                },{
+                    duration: 1000
+                })
+            ).done(function () {
+                $(this)[1].find('.detail-box').removeClass('detail-hide');
+                $('.close-icon').removeClass('detail-hide');
 
-            $(this).children().removeClass('detail-hide');
+                // console.log(this);
+                $('.close-icon').css({
+                    right: (20 - (index-1) * 2.65) + '%'
+                });
+            });
 
             $('.menu-block').css({
                 'height': '3vw',
@@ -214,7 +233,9 @@ $(document).ready(function () {
                 'bottom' : 'auto',
                 'font-size' : '20px',
             });
+
         });
+        
     }
 
     $('.menu-section').hover(function () {
@@ -246,6 +267,26 @@ $(document).ready(function () {
         $(this).children().addClass('hideBox');
         $('.seemore-text').css({ visibility: 'hidden' });
         $('.subtopic-thaitext').css({ visibility: 'hidden' });
+
+        // alert('test');
+    });
+
+    $('.close-icon').click(function () {
+        // alert('close');
+        $('.menu-section').children().removeClass('hideBox');
+        $('.menu-section').find('.menu-block').addClass('menu-box');
+        $('.menu-section').find('.detail-box').addClass('detail-hide');
+        $('.close-icon').addClass('detail-hide');
+        $('.menu-section').animate({
+            width : 'initial',
+            height : 'initial'
+        });
+        $('.menu-section').attr('style', '');
+        $('.menu-box').attr('style', '');
+        $('.menu-box > p').attr('style', '');
+        $('.scroll').css({
+            display: 'initial',
+        });
     });
 });
 

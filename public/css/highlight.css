@@ -51,6 +51,9 @@
   top: 0;
   left: 0; }
 
+#highlight .menu-section {
+  z-index: 2; }
+
 #highlight .menu-box {
   position: relative;
   width: 50%;
@@ -106,6 +109,18 @@
 
 #highlight .detail-hide {
   display: none; }
+
+#highlight .close-icon {
+  background-image: url(/imgs/popup-close.png);
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(-50%, 50%);
+  margin-bottom: 20px;
+  z-index: 99999; }
 
 @media (min-width: 992px) {
   #highlight .topic-text {
@@ -185,4 +200,9 @@
     top: 50%;
     left: 3vw;
     transform: translate(0%, -50%);
-    padding: 20px; } }
+    padding: 20px; }
+  #highlight .detail-box.active {
+    animation: fadeIn 1.5s; }
+  #highlight .close-icon {
+    top: 2%;
+    right: 20%; } }

@@ -7,6 +7,7 @@
         </div>
         <div class="row box no-margin">
             <div class="all-box no-padding">
+                <div class="detail-hide close-icon"></div>
                 <div class="menu-section" data-id="1">
                     <div class="menu-box menu-block">
                         <p class="text-uppercase no-margin subtopic-text">CAMOUFLAGE ARCHITECTURE DESIGN</p>

@@ -28,6 +28,10 @@
         left: 0;
     }
 
+    .menu-section {
+        z-index: 2;
+    }
+
     .menu-box {
         position: relative;
         width: 50%;
@@ -99,6 +103,19 @@
 
     .detail-hide {
         display: none;
+    }
+
+    .close-icon {
+        background-image: url(/imgs/popup-close.png);
+        background-repeat: no-repeat;
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: translate(-50%,50%);
+        margin-bottom: 20px;
+        z-index: 99999;
     }
 
     @media (min-width: 576px) {
@@ -224,6 +241,17 @@
             left: 3vw;
             transform: translate(0%, -50%);
             padding: 20px; 
+        }
+
+        .detail-box.active {
+            animation: fadeIn 1.5s;
+        }
+
+        .close-icon {
+            top: 2%;
+            right: 20%;
+            // transform: translate(-50%,50%);
+            // margin-bottom: 20px;
         }
     }
 
