@@ -58,6 +58,9 @@
   padding: 20px;
   background-color: rgba(255, 255, 255, 0.5); }
 
+#highlight .menu-block.hideBox {
+  display: none; }
+
 #highlight .subtopic-text {
   font-size: 16px;
   line-height: 0.8; }
@@ -96,12 +99,9 @@
 
 #highlight .detail-box {
   position: absolute;
-  background-color: rgba(255, 255, 255, 0.5);
-  width: 350px;
-  height: 350px;
-  top: 50%;
-  left: 3vw;
-  transform: translate(0%, -50%);
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 100%;
+  height: 250px;
   padding: 20px; }
 
 #highlight .detail-hide {
@@ -147,8 +147,6 @@
       bottom: 150px; }
     #highlight .menu-box:hover .subtopic-thaitext {
       visibility: visible; }
-  #highlight .menu-block.hideBox {
-    display: none; }
   #highlight .subtopic-text {
     position: absolute;
     bottom: 50px;
@@ -180,4 +178,11 @@
   #highlight .scroll-text {
     font-size: 20px; }
   #highlight .scroll-text:hover {
-    text-decoration: underline #fff; } }
+    text-decoration: underline #fff; }
+  #highlight .detail-box {
+    width: 350px;
+    height: 350px;
+    top: 50%;
+    left: 3vw;
+    transform: translate(0%, -50%);
+    padding: 20px; } }

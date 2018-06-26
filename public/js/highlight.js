@@ -47,6 +47,9 @@ $(document).ready(function () {
         });
 
         $('.menu-section').click(function() {
+            $('.menu-section .menu-block').removeClass('hideBox');
+            $('.menu-section .detail-box').addClass('detail-hide');
+
             var index = $(this).data('id');
 
             if ( index > 1 && index <= 3 ) {
@@ -76,17 +79,36 @@ $(document).ready(function () {
                     top: 'auto'
                 });
             }
+
+            $.when(
+                $('.menu-section').animate({
+                    height: '50px'
+                },{
+                    duration: 1000
+                }),
+                
+                $(this).animate({
+                    height: '250px',
+                },{
+                    duration: 1000
+                })
+            ).done(function () {
+                $(this)[1].find('.detail-box').removeClass('detail-hide');
+                // console.log(this);
+            });
             
-            $('.menu-section').animate({
-                height: '50px'
-            },{
-                duration: 1000
+            $('.menu-block').css({
+                'background-color' : 'rgba(255, 255, 255, 0.8)',
+                'height' : '250px',
+                'top' : '0%',
+                'bottom' : 'auto',
             });
 
-            $(this).animate({
-                height: '250px'
-            },{
-                duration: 1000
+            $('.subtopic-text').css({
+                'width' : '100%',
+                'top' : '0',
+                'bottom' : 'auto',
+                'font-size' : '20px',
             });
         });
 
@@ -180,21 +202,7 @@ $(document).ready(function () {
 
             $(this).children().removeClass('detail-hide');
 
-            $('.menu-section').css({
-                'background-color' : 'rgba(255, 255, 255, 0.5)'
-            })
-
-            $(this).css({
-                'width' : '100%',
-                'background-color' : 'transparent',
-            });
-            
-            $(this).children().addClass('hideBox');
-            $('.seemore-text').css({ visibility: 'hidden' });
-            $('.subtopic-thaitext').css({ visibility: 'hidden' });
             $('.menu-block').css({
-                'background-color' : 'transparent',
-                'width': '100%',
                 'height': '3vw',
                 'transform' : 'rotate(90deg)',
                 'top' : '0%',
@@ -216,9 +224,28 @@ $(document).ready(function () {
     });
 
     $('.menu-section').click(function () {
+
+        $('.menu-block').css({
+            'background-color' : 'transparent',
+            'width': '100%',
+        });
+
         $('.scroll').css({
             display: 'none',
         });
+
+        $('.menu-section').css({
+            'background-color' : 'rgba(255, 255, 255, 0.5)'
+        });
+
+        $(this).css({
+            'width' : '100%',
+            'background-color' : 'transparent',
+        });
+
+        $(this).children().addClass('hideBox');
+        $('.seemore-text').css({ visibility: 'hidden' });
+        $('.subtopic-thaitext').css({ visibility: 'hidden' });
     });
 });
 
