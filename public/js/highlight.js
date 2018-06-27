@@ -165,57 +165,89 @@ $(document).ready(function () {
             $('.menu-section .menu-block').removeClass('hideBox');
             $('.menu-section .detail-box').addClass('detail-hide');
             $('.close-icon').addClass('detail-hide');
-            
-            var index = $(this).data('id');
-            console.log(index);
+            $(".menu-section").addClass("deActive");
 
-            if ( index >= 1 && index <= 3 ) {
-                $('.all-box').animate({
-                    left: '0'
-                },{ 
-                    duration: 1000
-                });
+            // $(this).removeClass("deActive");
+            // $(this).animate({width:'88vw'},function(){
+                
+            //     $(".menu-section.deActive").animate({width:'3vw'},function () {
+            //         $('.menu-section').attr('style', {
+            //             'background-color': 'transparent'
+            //         },100);
+            //     });
 
-                $('.all-box').css({
-                    right: 'auto'
-                });
-            } else if ( index > 3 && index < 6 ) {
-                $('.all-box').animate({
-                    left: -3  * (index - 3) + 'vw'
-                },{ 
-                    duration: 1000
-                });
+            //     // $('.menu-section').attr('style', {
+            //     //     'background-color': 'rgba(255, 255, 255, 0.5)'
+            //     // });
+            // });
+
+            // var index = $(this).data('id');
+            // console.log(index);
+
+            // if ( index >= 1 && index <= 3 ) {
+            //     $('.all-box').animate({
+            //         left: '0'
+            //     },{ 
+            //         duration: 1000
+            //     });
+
+            //     $('.all-box').css({
+            //         right: 'auto'
+            //     });
+            // } else if ( index > 3 && index < 6 ) {
+            //     $('.all-box').animate({
+            //         left: -3  * (index - 3) + 'vw'
+            //     },{ 
+            //         duration: 1000
+            //     });
 
                 
-            } else if ( index >=6 && index <=8 ) {
-                $('.all-box').animate({
-                    right: '0'
-                },{ 
-                    duration: 1000
-                });
+            // } else if ( index >=6 && index <=8 ) {
+            //     $('.all-box').animate({
+            //         right: '0'
+            //     },{ 
+            //         duration: 1000
+            //     });
 
-                $('.all-box').css({
-                    left: 'auto'
-                });
-            }
+            //     $('.all-box').css({
+            //         left: 'auto'
+            //     });
+            // }
+
+
+
+
 
             $.when(
-                $('.menu-section').animate({
-                    width: '3vw'
-                },{
-                    duration: 1000
-                }),
-                
-                $(this).animate({
-                    width: '88vw'
-                },{
-                    duration: 1000
+                // $(this).animate({
+                //     width: '88vw'
+                // },{
+                //     duration: 1000
+                // }),
+                // $('.menu-section').not(this).animate({
+                //     width: '3vw'
+                // },{
+                //     duration: 0,
+                // }),
+
+                $(this).removeClass("deActive"),
+                $(this).animate({width:'88vw'},function(){
+                    
+                    $(".menu-section.deActive").animate({width:'3vw'}, function () {
+                        // $('.menu-section'.not(this)).attr('style', 'width: 3vw' );
+                    });
+    
+                    // $('.menu-section').attr('style', 
+                    //     'background-color: rgba(255, 255, 255, 0.5)',
+                    //     'width: 3vw'
+                    // );
                 })
+                
             ).done(function () {
                 $(this)[1].find('.detail-box').removeClass('detail-hide');
                 $('.close-icon').removeClass('detail-hide');
 
-                // console.log(this);
+                console.log($(this)[1].find('.detail-box'));
                 $('.close-icon').css({
                     right: (20 - (index-1) * 2.65) + '%'
                 });
