@@ -49,13 +49,99 @@
                             </div>
                         </div>
                     </div>
+                    <div class="col-6 animate-hid pos-animate-gal-2">
+                        <div class="block2 overflow-hid">
+                            <div class="row no-gutters">
+                                <div class="col-3 flip-container flipper" data-img="1">
+                                    <div class="flip-init-left">
+                                        <img src="{{ asset('/imgs/2-1.jpg') }}" alt="2-1" width="100%">
+                                    </div>
+                                </div>
+                                <div class="col-3 flip-container flipper" data-img="2">
+                                    <div class="flip-init-left">
+                                        <img src="{{ asset('/imgs/2-2.jpg') }}" alt="2-2" width="100%">
+                                    </div>
+                                </div>
+                                <div class="col-3 flip-container flipper" data-img="3">
+                                    <div class="flip-init-left">
+                                        <img src="{{ asset('/imgs/2-3.jpg') }}" alt="2-3" width="100%">
+                                    </div>
+                                </div>
+                                <div class="col-3 flip-container flipper" data-img="4">
+                                    <div class="flip-init-left">
+                                        <img src="{{ asset('/imgs/2-4.jpg') }}" alt="2-4" width="100%">
+                                    </div>
+                                </div>
+                                <div class="col-3 flip-container flipper" data-img="2">
+                                    <div class="flip-init-down">
+                                        <img src="{{ asset('/imgs/2-5.jpg') }}" alt="2-5" width="100%">
+                                    </div>
+                                </div>
+                                <div class="col-3 flip-container flipper" data-img="3">
+                                    <div class="flip-init-down">
+                                        <img src="{{ asset('/imgs/2-6.jpg') }}" alt="2-6" width="100%">
+                                    </div>
+                                </div>
+                                <div class="col-3 flip-container flipper" data-img="4">
+                                    <div class="flip-init-down">
+                                        <img src="{{ asset('/imgs/2-7.jpg') }}" alt="2-7" width="100%">
+                                    </div>
+                                </div>
+                                <div class="col-3 flip-container flipper" data-img="5">
+                                    <div class="flip-init-down">
+                                        <img src="{{ asset('/imgs/2-8.jpg') }}" alt="2-8" width="100%">
+                                    </div>
+                                </div>
+                                <div class="col-3 flip-container flipper" data-img="3">
+                                    <div class="flip-init-down">
+                                        <img src="{{ asset('/imgs/2-9.jpg') }}" alt="2-9" width="100%">
+                                    </div>
+                                </div>
+                                <div class="col-3 flip-container flipper" data-img="4">
+                                    <div class="flip-init-down">
+                                        <img src="{{ asset('/imgs/2-10.jpg') }}" alt="2-10" width="100%">
+                                    </div>
+                                </div>
+                                <div class="col-3 flip-container flipper" data-img="5">
+                                    <div class="flip-init-left">
+                                        <img src="{{ asset('/imgs/2-11.jpg') }}" alt="2-11" width="100%">
+                                    </div>
+                                </div>
+                                <div class="col-3 flip-container flipper" data-img="6">
+                                    <div class="flip-init-down">
+                                        <img src="{{ asset('/imgs/2-12.jpg') }}" alt="2-12" width="100%">
+                                    </div>
+                                </div>
+                                <div class="col-3 flip-container flipper" data-img="4">
+                                    <div class="flip-init-down">
+                                        <img src="{{ asset('/imgs/2-13.jpg') }}" alt="2-13" width="100%">
+                                    </div>
+                                </div>
+                                <div class="col-3 flip-container flipper" data-img="5">
+                                    <div class="flip-init-down">
+                                        <img src="{{ asset('/imgs/2-14.jpg') }}" alt="2-14" width="100%">
+                                    </div>
+                                </div>
+                                <div class="col-3 flip-container flipper" data-img="6">
+                                    <div class="flip-init-left">
+                                        <img src="{{ asset('/imgs/2-15.jpg') }}" alt="2-15" width="100%">
+                                    </div>
+                                </div>
+                                <div class="col-3 flip-container flipper" data-img="7">
+                                    <div class="flip-init-left">
+                                        <img src="{{ asset('/imgs/2-16.jpg') }}" alt="2-16" width="100%">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <div class="col-6">
                         <div class="owl-carousel owl-theme owl-loaded">
                             <div class="owl-stage-outer">
                                 <div class="owl-stage">
                                     <div class="owl-item">
-                                        <div class="block2 overflow-hid">
-                                            <img class="img-size" src="{{ asset('/imgs/2.jpg') }}" alt="2">
+                                        <div class="block2 overflow-hid ">
+                                            <img class="img-size img-active" src="{{ asset('/imgs/2.jpg') }}" alt="2">
                                         </div>
                                     </div>
                                     <div class="owl-item">
@@ -189,13 +275,99 @@
                     </div>
                 </div>
                 <div class="row no-gutters">
+                    <div class="col-6 col-lg-7 animate-hid pos-animate-gal-5">
+                        <div class="block5 overflow-hid">
+                            <div class="row no-gutters">
+                                <div class="col-3 flip-container flipper" data-img="4">
+                                    <div class="flip-init-left">
+                                        <img src="{{ asset('/imgs/5-1.jpg') }}" alt="5-1" width="100%">
+                                    </div>
+                                </div>
+                                <div class="col-3 flip-container flipper" data-img="3">
+                                    <div class="flip-init-left">
+                                        <img src="{{ asset('/imgs/5-2.jpg') }}" alt="5-2" width="100%">
+                                    </div>
+                                </div>
+                                <div class="col-3 flip-container flipper" data-img="2">
+                                    <div class="flip-init-left">
+                                        <img src="{{ asset('/imgs/5-3.jpg') }}" alt="5-3" width="100%">
+                                    </div>
+                                </div>
+                                <div class="col-3 flip-container flipper" data-img="1">
+                                    <div class="flip-init-left">
+                                        <img src="{{ asset('/imgs/5-4.jpg') }}" alt="5-4" width="100%">
+                                    </div>
+                                </div>
+                                <div class="col-3 flip-container flipper" data-img="5">
+                                    <div class="flip-init-down">
+                                        <img src="{{ asset('/imgs/5-5.jpg') }}" alt="5-5" width="100%">
+                                    </div>
+                                </div>
+                                <div class="col-3 flip-container flipper" data-img="4">
+                                    <div class="flip-init-down">
+                                        <img src="{{ asset('/imgs/5-6.jpg') }}" alt="5-6" width="100%">
+                                    </div>
+                                </div>
+                                <div class="col-3 flip-container flipper" data-img="3">
+                                    <div class="flip-init-down">
+                                        <img src="{{ asset('/imgs/5-7.jpg') }}" alt="5-7" width="100%">
+                                    </div>
+                                </div>
+                                <div class="col-3 flip-container flipper" data-img="2">
+                                    <div class="flip-init-down">
+                                        <img src="{{ asset('/imgs/5-8.jpg') }}" alt="5-8" width="100%">
+                                    </div>
+                                </div>
+                                <div class="col-3 flip-container flipper" data-img="6">
+                                    <div class="flip-init-down">
+                                        <img src="{{ asset('/imgs/5-9.jpg') }}" alt="5-9" width="100%">
+                                    </div>
+                                </div>
+                                <div class="col-3 flip-container flipper" data-img="5">
+                                    <div class="flip-init-down">
+                                        <img src="{{ asset('/imgs/5-10.jpg') }}" alt="5-10" width="100%">
+                                    </div>
+                                </div>
+                                <div class="col-3 flip-container flipper" data-img="4">
+                                    <div class="flip-init-left">
+                                        <img src="{{ asset('/imgs/5-11.jpg') }}" alt="5-11" width="100%">
+                                    </div>
+                                </div>
+                                <div class="col-3 flip-container flipper" data-img="3">
+                                    <div class="flip-init-down">
+                                        <img src="{{ asset('/imgs/5-12.jpg') }}" alt="5-12" width="100%">
+                                    </div>
+                                </div>
+                                <div class="col-3 flip-container flipper" data-img="7">
+                                    <div class="flip-init-down">
+                                        <img src="{{ asset('/imgs/5-13.jpg') }}" alt="5-13" width="100%">
+                                    </div>
+                                </div>
+                                <div class="col-3 flip-container flipper" data-img="6">
+                                    <div class="flip-init-down">
+                                        <img src="{{ asset('/imgs/5-14.jpg') }}" alt="5-14" width="100%">
+                                    </div>
+                                </div>
+                                <div class="col-3 flip-container flipper" data-img="5">
+                                    <div class="flip-init-left">
+                                        <img src="{{ asset('/imgs/5-15.jpg') }}" alt="5-15" width="100%">
+                                    </div>
+                                </div>
+                                <div class="col-3 flip-container flipper" data-img="4">
+                                    <div class="flip-init-left">
+                                        <img src="{{ asset('/imgs/5-16.jpg') }}" alt="5-16" width="100%">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <div class="col-6 col-lg-7">
                         <div class="owl-carousel owl-theme owl-loaded">
                             <div class="owl-stage-outer">
                                 <div class="owl-stage">
                                     <div class="owl-item">
                                         <div class="block5 overflow-hid">
-                                            <img class="img-size" src="{{ asset('/imgs/5.jpg') }}" alt="5">
+                                            <img class="img-size img-active" src="{{ asset('/imgs/5.jpg') }}" alt="5">
                                         </div>
                                     </div>
                                     <div class="owl-item">

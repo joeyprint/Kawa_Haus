@@ -1,9 +1,5 @@
 var owl = $('#gallery .owl-carousel');
 
-$(document).ready(function() {
-    $(".owl-carousel").owlCarousel();
-});
-
 owl.on('initialized.owl.carousel', function(props) {
     var currentPage = props.item.index;
     console.log(currentPage);
@@ -49,8 +45,53 @@ owl.on('translate.owl.carousel', function(props) {
 
 $('.owl-next').click(function() {
     owl.trigger('next.owl.carousel');
-})
+});
 
 $('.owl-prev').click(function() {
     owl.trigger('prev.owl.carousel', [300]);
-})
+});
+
+
+// var for animate carousal
+var isLoop = false;
+var start = 1
+var end = 7;
+
+
+$(document).ready(function() {
+    $(".owl-carousel").owlCarousel();
+
+    $(window).scroll( function () {
+        
+        if($(window).width() > 991) {
+            if($(window).scrollTop() + 500 >= $('#gallery').offset().top) {
+                
+                // var ar = [];
+                $.when(
+                    $('.flipper').each(function(event){
+                        event.preventDefault;
+                        if( !isLoop ){
+                            animateCarousel()
+                        }
+                    })
+                ).done(function () {
+                    // $('.flip-container.active').animate({opacity : 0}, 100);
+                    if($('.flip-container.active').length === $('.flip-container').length) {
+                        $('.img-active').addClass('active');
+                        $('.flip-container').animate({opacity: '1'},150);
+                    }
+                })
+                    
+                function animateCarousel() {
+                    // console.log('debug:'+i);
+                    isLoop = true;
+                    $('[data-img="'+ start +'"]').addClass('active');
+                    start++;
+                    if( start <= end ){
+                        setTimeout( animateCarousel, 300 );
+                    }
+                }
+            }
+        }
+    })
+});
