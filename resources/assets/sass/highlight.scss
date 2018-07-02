@@ -74,6 +74,7 @@
     }
 
     .scroll {
+        z-index: 99;
         color: $white;
         position: absolute;
         right: 0;
@@ -91,6 +92,14 @@
     .scroll-text {
         padding: 10px;
         // margin: 20px;
+    }
+
+    .scroll-prev {
+        top: 75px;
+    }
+
+    .scroll-next {
+        bottom: 10px;
     }
 
     .detail-box {
@@ -136,6 +145,7 @@
         .box {
             width: auto;
             height: 745px;
+            border: none !important;
         }
 
         .all-box {
@@ -153,9 +163,30 @@
             height: 100%;
             width: 20vw;
             border-right: 1px solid $white;
+            border-top: 5px solid #eaeaea;
+            border-bottom: 5px solid #eaeaea;
 
             &:nth-last-child() {
                 border-right: none;
+            }
+        }
+
+        .menu-section:hover {
+            background-color: rgba(255, 255, 255, 0.5);
+            border-top: $blue-sea;
+            border-bottom: $blue-sea;
+             
+            .menu-box {
+                background-color: transparent;
+                height: 100%;
+                
+                .subtopic-text {
+                    bottom: 150px;
+                }
+                
+                .subtopic-thaitext {
+                    visibility: visible;
+                }
             }
         }
         
@@ -166,9 +197,11 @@
             height: 115px;
             padding: 10px;
             cursor: pointer;
+           
         }
 
         .menu-box:hover {
+            background-color: transparent;
             height: 100%;
             border-top: 5px solid $blue-sea;
             border-bottom: 5px solid $blue-sea;
@@ -204,6 +237,7 @@
         }
 
         .arrow-display-lg {
+            z-index: 999;
             display: inline;
         }
 
@@ -227,11 +261,21 @@
         }
 
         .scroll-text {
+            z-index: 999;
             font-size: 20px;
         }
 
         .scroll-text:hover {
             text-decoration: underline $white;
+        }
+
+        .scroll-prev {
+            left: 10px;
+            right: auto;
+        }
+
+        .scroll-next {
+            right: 10px;
         }
 
         .detail-box {

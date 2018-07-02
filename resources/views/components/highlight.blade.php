@@ -122,17 +122,15 @@
                 <div class="d-block d-lg-none line"></div>
             </div>
         </div>
-        <div class="row">
-            <div class="scroll scroll-prev">
-                <i class="arrow-display-lg fa fa-arrow-left"></i>
-                <span class="text-uppercase scroll-text">Previous</span>
-                <i class="arrow-display-xs fa fa-arrow-down"></i>
-            </div>
-            <div class="scroll scroll-next">
-                <span class="text-uppercase scroll-text">Next</span>
-                <i class="arrow-display-lg fa fa-arrow-right"></i>
-                <i class="arrow-display-xs fa fa-arrow-up"></i>
-            </div>
+        <div class="scroll scroll-prev">
+            <i class="arrow-display-lg fa fa-arrow-left"></i>
+            <span class="text-uppercase scroll-text">Previous</span>
+            <i class="arrow-display-xs fa fa-arrow-down"></i>
+        </div>
+        <div class="scroll scroll-next">
+            <span class="text-uppercase scroll-text">Next</span>
+            <i class="arrow-display-lg fa fa-arrow-right"></i>
+            <i class="arrow-display-xs fa fa-arrow-up"></i>
         </div>
     </div>
 </section>
