@@ -51,6 +51,7 @@ $(document).ready(function () {
             $('.menu-section .menu-block').removeClass('hideBox');
             $('.menu-section .detail-box').addClass('detail-hide');
             $('.close-icon').addClass('detail-hide');
+            $(".menu-section").addClass("deActive");
 
             var index = $(this).data('id');
 
@@ -83,16 +84,12 @@ $(document).ready(function () {
             }
 
             $.when(
-                $('.menu-section').animate({
-                    height: '50px'
-                },{
-                    duration: 1000
+                $(this).removeClass("deActive"),
+                $(this).animate({height: '250px'},{
+                    duration: 500
                 }),
-                
-                $(this).animate({
-                    height: '250px',
-                },{
-                    duration: 1000
+                $(".menu-section.deActive").animate({height:'50px'},{
+                    duration: 500
                 })
             ).done(function () {
                 $(this)[1].find('.detail-box').removeClass('detail-hide');
@@ -118,6 +115,13 @@ $(document).ready(function () {
             });
 
         });
+
+        $('.close-icon').click(function () {
+            $('.menu-box').animate({
+                width : '50%',
+                height : '100px'
+            });
+        })
 
     } else {
         $('.scroll-next').click(function() {
@@ -237,6 +241,13 @@ $(document).ready(function () {
             });
 
         });
+
+        $('.close-icon').click(function () {
+            $('.menu-section').animate({
+                width : '20vw',
+                height : 'initial'
+            });
+        })
         
     }
 
@@ -314,10 +325,6 @@ $(document).ready(function () {
         $('.menu-section').find('.menu-block').addClass('menu-box');
         $('.menu-section').find('.detail-box').addClass('detail-hide');
         $('.close-icon').addClass('detail-hide');
-        $('.menu-section').animate({
-            width : '20vw',
-            height : 'initial'
-        });
         $('.menu-section').attr('style', '');
         $('.menu-box').attr('style', '');
         $('.menu-box > p').attr('style', '');
