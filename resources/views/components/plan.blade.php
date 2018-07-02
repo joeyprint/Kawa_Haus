@@ -28,7 +28,7 @@
             <div class="row d-none d-lg-block type-plan">
                 <div class="d-flex flex-row justify-content-center">
                     <div class="text-center col-3 plan-option-desktop" value="1">
-                        <p class="option-text">TYPE 1A-1 33.50-34.00SQ.M</p>
+                        <p class="option-text active">TYPE 1A-1 33.50-34.00SQ.M</p>
                     </div>
                     <div class="text-center col-3 plan-option-desktop" value="2">
                         <p class="option-text">TYPE 1E-2 35.75-36.00SQ.M</p>
