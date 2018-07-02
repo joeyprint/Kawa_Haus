@@ -52,8 +52,10 @@ $(document).ready(function () {
             $('.menu-section .detail-box').addClass('detail-hide');
             $('.close-icon').addClass('detail-hide');
             $(".menu-section").addClass("deActive");
-
+            
             var index = $(this).data('id');
+            
+            $('.close-icon').attr('data-close', index);
 
             if ( index >= 1 && index <= 3 ) {
                 $('.all-box').animate({
@@ -64,6 +66,14 @@ $(document).ready(function () {
 
                 $('.all-box').css({
                     bottom: 'auto'
+                });
+
+                $('.scroll-prev').css({
+                    'opacity' : 0
+                });
+
+                $('.scroll-next').css({
+                    'opacity' : 1
                 });
             } else if ( index > 3 && index < 6 ) {
                 $('.all-box').animate({
@@ -80,6 +90,14 @@ $(document).ready(function () {
 
                 $('.all-box').css({
                     top: 'auto'
+                });
+
+                $('.scroll-prev').css({
+                    'opacity' : 1
+                });
+
+                $('.scroll-next').css({
+                    'opacity' : 0
                 });
             }
 
@@ -173,6 +191,8 @@ $(document).ready(function () {
             
             var index = $(this).data('id');
 
+            $('.close-icon').attr('data-close', index);
+
             if ( index >= 1 && index <= 3 ) {
                 $('.all-box').animate({
                     left: '0'
@@ -182,6 +202,14 @@ $(document).ready(function () {
 
                 $('.all-box').css({
                     right: 'auto'
+                });
+
+                $('.scroll-prev').css({
+                    'opacity' : 0
+                });
+
+                $('.scroll-next').css({
+                    'opacity' : 1
                 });
             } else if ( index > 3 && index < 6 ) {
                 $('.all-box').animate({
@@ -202,6 +230,14 @@ $(document).ready(function () {
 
                 $('.all-box').css({
                     left: 'auto'
+                });
+
+                $('.scroll-prev').css({
+                    'opacity' : 1
+                });
+
+                $('.scroll-next').css({
+                    'opacity' : 0
                 });
             }
 
@@ -306,7 +342,8 @@ $(document).ready(function () {
 
         $('.menu-section').css({
             'background-color' : 'rgba(255, 255, 255, 0.5)',
-            'border' : 'none'
+            'border-top' : 'none',
+            'border-bottom' : 'none'
         });
 
         $(this).css({
@@ -329,7 +366,7 @@ $(document).ready(function () {
         $('.menu-box').attr('style', '');
         $('.menu-box > p').attr('style', '');
         $('.scroll').css({
-            display: 'initial',
+            display: 'block'
         });
         $('.box').css({
             'background-image': "url('/imgs/water_front.png')"
