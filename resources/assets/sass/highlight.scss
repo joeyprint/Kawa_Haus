@@ -158,6 +158,25 @@
                 border-right: none;
             }
         }
+
+        .menu-section:hover {
+            background-color: rgba(255, 255, 255, 0.5);
+
+            .menu-box {
+                background-color: transparent;
+                height: 100%;
+                border-top: 5px solid $blue-sea;
+                border-bottom: 5px solid $blue-sea;
+                
+                .subtopic-text {
+                    bottom: 150px;
+                }
+                
+                .subtopic-thaitext {
+                    visibility: visible;
+                }
+            }
+        }
         
         .menu-box {
             position: absolute;
@@ -166,9 +185,11 @@
             height: 115px;
             padding: 10px;
             cursor: pointer;
+           
         }
 
         .menu-box:hover {
+            background-color: transparent;
             height: 100%;
             border-top: 5px solid $blue-sea;
             border-bottom: 5px solid $blue-sea;
@@ -204,6 +225,7 @@
         }
 
         .arrow-display-lg {
+            z-index: 999;
             display: inline;
         }
 
@@ -227,6 +249,7 @@
         }
 
         .scroll-text {
+            z-index: 999;
             font-size: 20px;
         }
 

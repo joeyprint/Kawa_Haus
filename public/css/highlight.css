@@ -147,6 +147,17 @@
     border-right: 1px solid #fff; }
     #highlight .menu-section:nth-last-child() {
       border-right: none; }
+  #highlight .menu-section:hover {
+    background-color: rgba(255, 255, 255, 0.5); }
+    #highlight .menu-section:hover .menu-box {
+      background-color: transparent;
+      height: 100%;
+      border-top: 5px solid #006783;
+      border-bottom: 5px solid #006783; }
+      #highlight .menu-section:hover .menu-box .subtopic-text {
+        bottom: 150px; }
+      #highlight .menu-section:hover .menu-box .subtopic-thaitext {
+        visibility: visible; }
   #highlight .menu-box {
     position: absolute;
     bottom: 0;
@@ -155,6 +166,7 @@
     padding: 10px;
     cursor: pointer; }
   #highlight .menu-box:hover {
+    background-color: transparent;
     height: 100%;
     border-top: 5px solid #006783;
     border-bottom: 5px solid #006783; }
@@ -178,6 +190,7 @@
   #highlight .seemore-text {
     padding: 10px; }
   #highlight .arrow-display-lg {
+    z-index: 999;
     display: inline; }
   #highlight .arrow-display-xs {
     display: none; }
@@ -191,6 +204,7 @@
     #highlight .scroll:nth-child(2) {
       right: 50px !important; }
   #highlight .scroll-text {
+    z-index: 999;
     font-size: 20px; }
   #highlight .scroll-text:hover {
     text-decoration: underline #fff; }

@@ -20,7 +20,7 @@
     @include('components.banner')
     @include('components.concept')
     @include('components.regis')
-    @include('components.testhighlight')
+    @include('components.highlight')
     @include('components.innovation')
     @include('components.plan')
     @include('components.video')
