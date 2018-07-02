@@ -166,7 +166,7 @@ $(document).ready(function () {
             $('.menu-section .detail-box').addClass('detail-hide');
             $('.close-icon').addClass('detail-hide');
             $(".menu-section").addClass("deActive");
-
+            
             var index = $(this).data('id');
 
             if ( index >= 1 && index <= 3 ) {
@@ -248,6 +248,42 @@ $(document).ready(function () {
 
     $('.menu-section').click(function () {
 
+        var index = $(this).data('id');
+
+        if(index === 1) {
+            $('.box').css({
+                'background-image': "url('/imgs/hl1.jpg')"
+            });
+        } else if (index === 2) {
+            $('.box').css({
+                'background-image': "url('/imgs/hl2.jpg')"
+            });
+        } else if (index === 3) {
+            $('.box').css({
+                'background-image': "url('/imgs/hl3.jpg')"
+            });
+        } else if (index === 4) {
+            $('.box').css({
+                'background-image': "url('/imgs/hl4.jpg')"
+            });
+        } else if (index === 5) {
+            $('.box').css({
+                'background-image': "url('/imgs/hl5.jpg')"
+            });
+        } else if (index === 6) {
+            $('.box').css({
+                'background-image': "url('/imgs/hl6.jpg')"
+            });
+        } else if (index === 7) {
+            $('.box').css({
+                'background-image': "url('/imgs/hl7.jpg')"
+            });
+        } else if (index === 8) {
+            $('.box').css({
+                'background-image': "url('/imgs/hl8.jpg')"
+            });
+        }
+
         $('.menu-block').css({
             'background-color' : 'transparent',
             'width': '100%',
@@ -258,7 +294,8 @@ $(document).ready(function () {
         });
 
         $('.menu-section').css({
-            'background-color' : 'rgba(255, 255, 255, 0.5)'
+            'background-color' : 'rgba(255, 255, 255, 0.5)',
+            'border' : 'none'
         });
 
         $(this).css({
@@ -286,6 +323,9 @@ $(document).ready(function () {
         $('.menu-box > p').attr('style', '');
         $('.scroll').css({
             display: 'initial',
+        });
+        $('.box').css({
+            'background-image': "url('/imgs/water_front.png')"
         });
     });
 });

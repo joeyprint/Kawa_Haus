@@ -88,6 +88,7 @@
   display: inline; }
 
 #highlight .scroll {
+  z-index: 99;
   color: #fff;
   position: absolute;
   right: 0;
@@ -99,6 +100,12 @@
 
 #highlight .scroll-text {
   padding: 10px; }
+
+#highlight .scroll-prev {
+  top: 75px; }
+
+#highlight .scroll-next {
+  bottom: 10px; }
 
 #highlight .detail-box {
   position: absolute;
@@ -129,7 +136,8 @@
     margin-right: 30px; }
   #highlight .box {
     width: auto;
-    height: 745px; }
+    height: 745px;
+    border: none !important; }
   #highlight .all-box {
     width: auto;
     height: 100%;
@@ -144,16 +152,18 @@
     position: relative;
     height: 100%;
     width: 20vw;
-    border-right: 1px solid #fff; }
+    border-right: 1px solid #fff;
+    border-top: 5px solid #eaeaea;
+    border-bottom: 5px solid #eaeaea; }
     #highlight .menu-section:nth-last-child() {
       border-right: none; }
   #highlight .menu-section:hover {
-    background-color: rgba(255, 255, 255, 0.5); }
+    background-color: rgba(255, 255, 255, 0.5);
+    border-top: #006783;
+    border-bottom: #006783; }
     #highlight .menu-section:hover .menu-box {
       background-color: transparent;
-      height: 100%;
-      border-top: 5px solid #006783;
-      border-bottom: 5px solid #006783; }
+      height: 100%; }
       #highlight .menu-section:hover .menu-box .subtopic-text {
         bottom: 150px; }
       #highlight .menu-section:hover .menu-box .subtopic-thaitext {
@@ -208,6 +218,11 @@
     font-size: 20px; }
   #highlight .scroll-text:hover {
     text-decoration: underline #fff; }
+  #highlight .scroll-prev {
+    left: 10px;
+    right: auto; }
+  #highlight .scroll-next {
+    right: 10px; }
   #highlight .detail-box {
     width: 350px;
     height: 350px;
