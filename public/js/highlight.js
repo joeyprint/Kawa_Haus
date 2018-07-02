@@ -97,7 +97,6 @@ $(document).ready(function () {
             ).done(function () {
                 $(this)[1].find('.detail-box').removeClass('detail-hide');
                 $('.close-icon').removeClass('detail-hide');
-                // console.log(this);
                 $('.close-icon').css({
                     top : 50 * (index-1)
                 });
