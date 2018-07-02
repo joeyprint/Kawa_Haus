@@ -82,11 +82,17 @@ body {
   #footer .taka-block {
     background-color: #f05133;
     font-size: 25px;
-    color: #fff; }
+    color: #fff;
+    cursor: pointer; }
+  #footer .taka-block:hover {
+    background-color: #a7341d; }
   #footer .oka-block {
     background-color: #f5a900;
     font-size: 25px;
-    color: #fff; }
+    color: #fff;
+    cursor: pointer; }
+  #footer .oka-block:hover {
+    background-color: #be850a; }
   #footer .padding-follow {
     padding: 35px 0px 10px 0px; }
   #footer .padding-allproject {

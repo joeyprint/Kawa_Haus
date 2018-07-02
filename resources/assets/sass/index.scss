@@ -88,12 +88,22 @@ body {
         background-color: #f05133;
         font-size: 25px;
         color: $white;
+        cursor: pointer;
+    }
+
+    .taka-block:hover {
+        background-color: #a7341d;
     }
     
     .oka-block {
         background-color: #f5a900;
         font-size: 25px;
         color: $white;
+        cursor: pointer;
+    }
+
+    .oka-block:hover {
+        background-color: #be850a;
     }
 
     .padding-follow {
