@@ -302,4 +302,37 @@
     @media (min-width: 1200px) {
         
     }
+
+    @media only screen
+    and (device-width: 1024px)
+    and (device-height: 768px) { 
+        .box {
+            height: 600px;
+        }
+
+        .subtopic-text {
+            font-size: 20px;
+        }
+
+        .subtopic-thaitext {
+            font-size: 16px;
+        }
+
+    }
+    
+    @media only screen
+    and (device-width: 1024px)
+    and (device-height: 1366px) {
+        .box {
+            height: 600px;
+        }
+
+        .subtopic-text {
+            font-size: 20px;
+        }
+
+        .subtopic-thaitext {
+            font-size: 16px;
+        }
+    }
 }

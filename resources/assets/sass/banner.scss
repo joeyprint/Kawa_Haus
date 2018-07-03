@@ -1,14 +1,14 @@
 @import 'variables';
 
 #banner {
-    padding-top: 90px;
+    padding-top: 60px;
 
     .banner-block {
         border: 5px solid $blue-sea !important;
     }
 
     .img-block {
-        height: 152px;
+        height: 184px;
         overflow: hidden;
     }
 
@@ -67,11 +67,15 @@
     }
 
     @media (min-width: 576px) {
-
+        .img-block {
+            height: 270px;
+        }
     }
 
     @media (min-width: 768px) {
-
+        .img-block {
+            height: 350px;
+        }
     }
 
     @media (min-width: 992px) {
@@ -83,7 +87,7 @@
         }
 
         .img-block {
-            height: 610px !important;
+            height: 611px;
         }
 
         .zoomPicIn {
@@ -129,7 +133,26 @@
         }
     }
 
+    @media only screen
+    and (device-width: 1024px)
+    and (device-height: 768px) { 
+        padding-top: 165.8px;
+
+        .img-block {
+            height: 530px !important;
+        }
+    }
+    
+    @media only screen
+    and (device-width: 1024px)
+    and (device-height: 1366px) {
+        .img-block {
+            height: 530px !important;
+        }
+    }
+    
     @media (min-width: 1200px) { 
        
     }
+
 }

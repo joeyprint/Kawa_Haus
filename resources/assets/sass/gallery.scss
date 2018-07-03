@@ -364,4 +364,109 @@
             position: relative;
         }
     }
+
+    @media only screen
+    and (device-width: 768px)
+    and (device-height: 1024px) { 
+        .block1 {
+            position: relative;
+            height: 30vh;
+            width: auto;
+            margin-right: 0px;
+        }
+        
+        .block2 {
+            position: relative;
+            height: 30vh;
+            width: auto;
+            // margin-left: 4;
+        }
+        
+        .block3 {
+            position: relative;
+            height: 30vh;
+            width: auto;
+            margin-top: 10px;
+        }
+    
+        .block4-carousel {
+            width: 80%;
+        }
+    
+        .block4 {
+            position: relative;
+            height: 25vh;
+            width: auto;
+            margin-top: 10px;
+            // margin-right: -20%;
+        }
+    
+        .block5 {
+            position: relative;
+            height: 30vh;
+            width: auto;
+            // margin-right: 9px;
+            // margin-top: 8px;
+        }
+    
+        .carousel-6 {
+            margin-top: -10px;
+        }
+    
+        .block6 {
+            position: relative;
+            height: 30vh;
+            width: auto;
+            // margin-left: 8px;
+            margin-top: 10px;
+            top: 0px;
+            // right: 0;
+        }
+    
+        .carousel-78 {
+            margin-top: -17px;
+        }
+    
+        .block7 {
+            position: relative;
+            height: 20vh;
+            width: auto;
+            margin-top: 10px;
+            top: 15px;
+        }
+    
+        .block8 {
+            position: relative;
+            height: 20vh;
+            width: auto;
+            margin-top: 10px;
+            top: 15px;
+        }
+
+        .chill-icon {
+            top: -50px;
+            left: 50vw;
+        }
+        
+        .relax-icon {
+            left: 70%;
+            top: -220px;
+        }
+    }
+
+    @media only screen
+    and (device-width: 1024px)
+    and (device-height: 768px) { 
+        .relax-icon {
+            top: -60px;
+        }
+    }
+    
+    @media only screen
+    and (device-width: 1024px)
+    and (device-height: 1366px) {
+        .relax-icon {
+            top: -60px;
+        }
+    }
 }

@@ -48,6 +48,11 @@
         margin: 10px auto;
     }
 
+    .vdo-size {
+        width: 100%;
+        height: auto;
+    }
+
     @media (min-width: 992px) {
         .bg-vdo {
             height: 445px;
@@ -78,6 +83,20 @@
             position: absolute;
             left: 0;
             top: -40;
+        }
+    }
+
+    @media only screen
+    and (device-width: 768px)
+    and (device-height: 1024px) { 
+        .all-video {
+            left: 50%;
+            transform: translate(-50%, 0%);
+        }
+        
+        .vdo-size {
+            width: auto;
+            height: 50%;
         }
     }
 }

@@ -250,3 +250,63 @@
         transition: 0.5s;
         transform-style: preserve-3d;
         position: relative; } }
+  @media only screen and (device-width: 768px) and (device-height: 1024px) {
+    #gallery .block1 {
+      position: relative;
+      height: 30vh;
+      width: auto;
+      margin-right: 0px; }
+    #gallery .block2 {
+      position: relative;
+      height: 30vh;
+      width: auto; }
+    #gallery .block3 {
+      position: relative;
+      height: 30vh;
+      width: auto;
+      margin-top: 10px; }
+    #gallery .block4-carousel {
+      width: 80%; }
+    #gallery .block4 {
+      position: relative;
+      height: 25vh;
+      width: auto;
+      margin-top: 10px; }
+    #gallery .block5 {
+      position: relative;
+      height: 30vh;
+      width: auto; }
+    #gallery .carousel-6 {
+      margin-top: -10px; }
+    #gallery .block6 {
+      position: relative;
+      height: 30vh;
+      width: auto;
+      margin-top: 10px;
+      top: 0px; }
+    #gallery .carousel-78 {
+      margin-top: -17px; }
+    #gallery .block7 {
+      position: relative;
+      height: 20vh;
+      width: auto;
+      margin-top: 10px;
+      top: 15px; }
+    #gallery .block8 {
+      position: relative;
+      height: 20vh;
+      width: auto;
+      margin-top: 10px;
+      top: 15px; }
+    #gallery .chill-icon {
+      top: -50px;
+      left: 50vw; }
+    #gallery .relax-icon {
+      left: 70%;
+      top: -220px; } }
+  @media only screen and (device-width: 1024px) and (device-height: 768px) {
+    #gallery .relax-icon {
+      top: -60px; } }
+  @media only screen and (device-width: 1024px) and (device-height: 1366px) {
+    #gallery .relax-icon {
+      top: -60px; } }

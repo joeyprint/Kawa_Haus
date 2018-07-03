@@ -73,6 +73,9 @@
   background-color: #006783;
   border: 1px solid #006783; }
 
+#contact #map {
+  height: 20vh; }
+
 @media (min-width: 992px) {
   #contact .kawa-text {
     line-height: 1;
@@ -109,4 +112,6 @@
   #contact .btn-contact:hover {
     color: #006783;
     background-color: transparent;
-    border: transparent; } }
+    border: transparent; }
+  #contact #map {
+    height: 25vh; } }

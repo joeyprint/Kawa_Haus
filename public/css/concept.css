@@ -107,3 +107,9 @@
         right: 0%;
         bottom: 10%;
         transform: rotate(90deg); } }
+  @media only screen and (device-width: 1024px) and (device-height: 768px) {
+    #concept .des-text {
+      font-size: 20px; } }
+  @media only screen and (device-width: 1024px) and (device-height: 1366px) {
+    #concept .des-text {
+      font-size: 20px; } }

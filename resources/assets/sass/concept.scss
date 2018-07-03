@@ -127,4 +127,20 @@
     @media (min-width: 1200px) { 
        
     }
+
+    @media only screen
+    and (device-width: 1024px)
+    and (device-height: 768px) { 
+        .des-text {
+            font-size: 20px;
+        }
+    }
+    
+    @media only screen
+    and (device-width: 1024px)
+    and (device-height: 1366px) {
+        .des-text {
+            font-size: 20px;
+        }
+    }
 }

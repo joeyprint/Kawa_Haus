@@ -28,11 +28,11 @@
   font-style: normal; }
 
 #banner {
-  padding-top: 90px; }
+  padding-top: 60px; }
   #banner .banner-block {
     border: 5px solid #006783 !important; }
   #banner .img-block {
-    height: 152px;
+    height: 184px;
     overflow: hidden; }
   #banner .img-banner {
     height: auto; }
@@ -66,6 +66,12 @@
   #banner .bg-regis {
     background-color: #025364;
     cursor: pointer; }
+  @media (min-width: 576px) {
+    #banner .img-block {
+      height: 270px; } }
+  @media (min-width: 768px) {
+    #banner .img-block {
+      height: 350px; } }
   @media (min-width: 992px) {
     #banner {
       padding-top: 175.8px; }
@@ -73,7 +79,7 @@
         position: relative;
         border: 8px solid #006783 !important; }
       #banner .img-block {
-        height: 610px !important; }
+        height: 611px; }
       #banner .zoomPicIn {
         animation: zoomIn 10s 1 forwards; }
       #banner .concept-box {
@@ -97,3 +103,11 @@
         top: 20px; }
       #banner .bg-regis:hover {
         background-color: #04424e; } }
+  @media only screen and (device-width: 1024px) and (device-height: 768px) {
+    #banner {
+      padding-top: 165.8px; }
+      #banner .img-block {
+        height: 530px !important; } }
+  @media only screen and (device-width: 1024px) and (device-height: 1366px) {
+    #banner .img-block {
+      height: 530px !important; } }

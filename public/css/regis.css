@@ -85,4 +85,7 @@
       background-color: #fff; }
     #regis .agree-text {
       padding: auto 15px;
-      font-weight: 20px; } }
+      font-weight: 20px; }
+    #regis .submit-btn {
+      height: 40px;
+      font-size: 20px; } }

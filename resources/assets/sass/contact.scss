@@ -56,6 +56,10 @@
         border: 1px solid $blue-sea;
     }
 
+    #map {
+        height: 20vh;
+    }
+
     @media (min-width: 992px) {
         .kawa-text {
             line-height: 1;
@@ -110,6 +114,10 @@
             color: $blue-sea;
             background-color: transparent;
             border: transparent;
+        }
+
+        #map {
+            height: 25vh;
         }
     }
 }

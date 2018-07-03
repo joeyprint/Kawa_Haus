@@ -54,6 +54,7 @@
         background-color: #e4d7c7;
         border: none;
         cursor: pointer;
+        
     }
 
     .water-mask-left {
@@ -96,6 +97,11 @@
         .agree-text {
             padding: auto 15px;
             font-weight: 20px;
+        }
+
+        .submit-btn {
+            height: 40px;
+            font-size: 20px;
         }
     }
 

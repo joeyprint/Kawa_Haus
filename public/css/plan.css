@@ -123,6 +123,7 @@
   background-color: #506b51; }
 
 #plan .pos-for-watermask {
+  z-index: 99;
   position: relative; }
 
 #plan .water-mask-left {
@@ -130,6 +131,24 @@
   left: 0%;
   top: 0%;
   transform: rotate(-90deg); }
+
+@media (min-width: 576px) {
+  #plan .inno-pos {
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, 0%); }
+  #plan .plan-size {
+    width: 80%;
+    height: auto; }
+  #plan .pos-for-watermask {
+    top: 50px; } }
+
+@media (min-width: 768px) {
+  #plan .plan-size {
+    width: 70%;
+    height: auto; }
+  #plan .pos-for-watermask {
+    top: 50px; } }
 
 @media (min-width: 992px) {
   #plan .btn-margin {
@@ -171,4 +190,14 @@
     transform: translate(-50%, -50%) !important; }
   #plan .btn-download {
     padding: 8px;
-    margin: -20px 15px 17px 15px; } }
+    margin: -20px 15px 17px 15px; }
+  #plan .pos-for-watermask {
+    top: 0px; } }
+
+@media only screen and (device-width: 768px) and (device-height: 1024px) {
+  #plan .pos-for-watermask {
+    top: -100px; }
+  #plan .inno-pos {
+    top: 50% !important;
+    left: 50%;
+    transform: translate(-50%, -50%) !important; } }
