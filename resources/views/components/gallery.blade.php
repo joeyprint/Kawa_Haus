@@ -9,10 +9,10 @@
                 <span class="kawa-text">KAWA</span>
             </div>
         </div>
-        <div class="row no-gutters">
+        <div class="row">
             <div class="col-12 col-lg-7 img-pos-mobile img-pos-left">
-                <div class="row no-gutters">
-                    <div class="col-6">
+                <div class="row">
+                    <div class="col-6 padding-right5">
                         <div class="owl-carousel owl-theme owl-loaded">
                             <div class="owl-stage-outer">
                                 <div class="owl-stage">
@@ -135,7 +135,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-6">
+                    <div class="col-6 padding-left5">
                         <div class="owl-carousel owl-theme owl-loaded">
                             <div class="owl-stage-outer">
                                 <div class="owl-stage">
@@ -174,8 +174,8 @@
                     </div>
                     <img class="d-none d-lg-block chill-icon" src="{{ asset('/imgs/chill-icon-desktop.jpg') }}" alt="">
                 </div>
-                <div class="row no-gutters">
-                    <div class="col-6">
+                <div class="row">
+                    <div class="col-6 padding-right5">
                         <div class="owl-carousel owl-theme owl-loaded">
                             <div class="owl-stage-outer">
                                 <div class="owl-stage">
@@ -212,8 +212,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-6 col-lg-4">
-                        <div class="owl-carousel owl-theme owl-loaded">
+                    <div class="col-6 col-lg-4 padding-left5">
+                        <div class="owl-carousel owl-theme owl-loaded block4-carousel">
                             <div class="owl-stage-outer">
                                 <div class="owl-stage">
                                     <div class="owl-item">
@@ -243,7 +243,7 @@
                                     <i class="fas fa-arrow-left"></i>
                                 </div>
                                 <div class="owl-nav-text">
-                                    <span id="page"></span>
+                                    <span id="page-desktop"></span>
                                     <span>| &nbsp;&nbsp;&nbsp;4</span>
                                 </div>
                                 <div class="owl-next">
@@ -274,7 +274,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="row no-gutters">
+                <div class="row">
                     <div class="col-6 col-lg-7 animate-hid pos-animate-gal-5">
                         <div class="block5 overflow-hid">
                             <div class="row no-gutters">
@@ -361,7 +361,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-6 col-lg-7">
+                    <div class="col-7 padding-right5">
                         <div class="owl-carousel owl-theme owl-loaded">
                             <div class="owl-stage-outer">
                                 <div class="owl-stage">
@@ -398,7 +398,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-6 col-lg-5">
+                    <div class="col-5 padding-left5">
                         <div class="owl-carousel owl-theme owl-loaded carousel-6">
                             <div class="owl-stage-outer">
                                 <div class="owl-stage">
@@ -436,8 +436,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="row no-gutters">
-                    <div class="col-3 col-lg-4">
+                <div class="row">
+                    <div class="col-4 padding-right5">
                         <div class="owl-carousel owl-theme owl-loaded carousel-78">
                             <div class="owl-stage-outer">
                                 <div class="owl-stage">
@@ -474,7 +474,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-5 col-lg-5">
+                    <div class="col-4 padding-left5">
                         <div class="owl-carousel owl-theme owl-loaded carousel-78">
                             <div class="owl-stage-outer">
                                 <div class="owl-stage">
@@ -505,7 +505,7 @@
                                     <i class="fas fa-arrow-left"></i>
                                 </div>
                                 <div class="owl-nav-text">
-                                    <span id="page"></span>
+                                    <span id="page-mobile"></span>
                                     <span>| &nbsp;&nbsp;&nbsp;4</span>
                                 </div>
                                 <div class="owl-next">
