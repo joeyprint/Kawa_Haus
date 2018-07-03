@@ -198,8 +198,11 @@
   #plan .btn-download {
     padding: 8px;
     margin: -20px 15px 17px 15px; }
+  #plan .arrow-pos {
+    top: 40%;
+    transform: translate(0%, -50%); }
   #plan .pos-for-watermask {
-    top: 0px; } }
+    top: 60px; } }
 
 @media only screen and (device-width: 768px) and (device-height: 1024px) {
   #plan .pos-for-watermask {

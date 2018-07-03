@@ -22,7 +22,11 @@ plan.on('translate.owl.carousel', function(props) {
 
     // For Desktop
     $('.option-text').removeClass('active');
-    $('[value=' + index + ']').children().addClass('active');
+    if(index === 0 || index === 4) {
+        $('[value="4"]').children().addClass('active');
+    } else {
+        $('[value=' + index + ']').children().addClass('active');
+    }
 
     // For mobile select > option
     $('#plan-option-mobile > option').removeAttr('selected');
@@ -31,13 +35,13 @@ plan.on('translate.owl.carousel', function(props) {
 
 $("#plan-option-mobile").on('change', function() {
     var value = $(this).val();
-    console.log(value);
+    // console.log(value);
     plan.trigger('to.owl.carousel', value-1);
 });
 
 $(".plan-option-desktop").click(function() {
     var value = $(this).attr('value');
-    console.log(value);
+    // console.log(value);
     plan.trigger('to.owl.carousel', value-1);
     $('.option-text').removeClass('active');
     $(this).children().addClass('active');
