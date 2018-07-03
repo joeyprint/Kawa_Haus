@@ -95,5 +95,31 @@ $(document).ready(function() {
                 }
             }
         }
-    })
+    });
+    if($(window).scrollTop()+ 500 >= $('#gallery').offset().top) {
+        console.log('test');
+        $.when(
+            $('.flipper').each(function(event){
+                event.preventDefault;
+                if( !isLoop ){
+                    animateCarousel()
+                }
+            })
+        ).done(function () {
+            // Check Delay Time Function
+            setTimeout(function(){
+                $('.img-active').addClass('active');
+                $('.flip-container').animate({opacity: '0'},150);
+            },3000)
+        })
+        function animateCarousel() {
+            // console.log('debug:'+i);
+            isLoop = true;
+            $('[data-img="'+ start +'"]').addClass('active');
+            start++;
+            if( start <= end ){
+                setTimeout( animateCarousel, 300 );
+            }
+        }
+    }
 });
