@@ -243,7 +243,7 @@
                                     <i class="fas fa-arrow-left"></i>
                                 </div>
                                 <div class="owl-nav-text">
-                                    <span id="page"></span>
+                                    <span id="page-desktop"></span>
                                     <span>| &nbsp;&nbsp;&nbsp;4</span>
                                 </div>
                                 <div class="owl-next">
@@ -505,7 +505,7 @@
                                     <i class="fas fa-arrow-left"></i>
                                 </div>
                                 <div class="owl-nav-text">
-                                    <span id="page"></span>
+                                    <span id="page-mobile"></span>
                                     <span>| &nbsp;&nbsp;&nbsp;4</span>
                                 </div>
                                 <div class="owl-next">

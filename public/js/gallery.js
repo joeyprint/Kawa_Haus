@@ -8,7 +8,8 @@ owl.on('initialized.owl.carousel', function(props) {
         "opacity": "0"
     });
 
-    $('#page').html((currentPage + 1) + "&nbsp;&nbsp;&nbsp;");
+    $('#page-mobile').html((currentPage + 1) + "&nbsp;&nbsp;&nbsp;");
+    $('#page-desktop').html((currentPage + 1) + "&nbsp;&nbsp;&nbsp;");
 
 });
 
@@ -40,7 +41,8 @@ owl.on('translate.owl.carousel', function(props) {
         });
     }
 
-    $('#page').html((currentPage + 1) + "&nbsp;&nbsp;&nbsp;");
+    $('#page-mobile').html((currentPage + 1) + "&nbsp;&nbsp;&nbsp;");
+    $('#page-desktop').html((currentPage + 1) + "&nbsp;&nbsp;&nbsp;");
 });
 
 $('.owl-next').click(function() {
@@ -78,7 +80,7 @@ $(document).ready(function() {
                     // $('.flip-container.active').animate({opacity : 0}, 100);
                     if($('.flip-container.active').length === $('.flip-container').length) {
                         $('.img-active').addClass('active');
-                        $('.flip-container').animate({opacity: '1'},150);
+                        $('.flip-container').animate({opacity: '0'},150);
                     }
                 })
                     

@@ -146,20 +146,21 @@
     .owl-nav {
         position: relative;
         top: 0px;
-        left: 20px;
+        left: 0px;
     }
 
     .owl-prev, .owl-next {
         background-color: transparent;
         color: $blue-sea !important;
         padding: 0px;
-        margin: auto 3px;
     }
 
     .owl-nav-text {
         background-color: transparent;
         color: #303030;
         font-size: 18px;
+        margin: 0;
+        padding: 0;
     }
 
     .animate-hid {
@@ -219,7 +220,7 @@
 
         .img-active.active {
             opacity: 1;
-            z-index: 100;
+            // z-index: 100;
         }
         
         .block3 {
@@ -285,15 +286,18 @@
         .owl-nav {
             top: -10px;
             left: -50px;
+
         }
 
         .owl-prev, .owl-next {
             padding: 0px;
-            margin: auto 2px;
+            margin: auto 4px;
         }
     
         .owl-nav-text {
             font-size: 20px;
+            margin: auto;
+            padding: auto;
         }
 
         .animate-hid {
