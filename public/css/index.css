@@ -60,7 +60,7 @@ body {
   #navbar .menu {
     color: rgba(255, 255, 255, 0.5);
     font-size: 20px;
-    padding: 0px 15px; }
+    padding: 0px; }
   #navbar .menu:hover {
     color: #fff; }
   #navbar .menu.active {
@@ -74,14 +74,18 @@ body {
       display: block; }
     #navbar .navbar {
       padding: 25px 0px; }
-    #navbar .menu {
-      font-size: 14px; } }
+    #navbar .margin-for-nav {
+      margin: 0 75; } }
   @media only screen and (device-width: 1024px) and (device-height: 768px) {
     #navbar .navbar {
-      padding: 20px 0px; } }
+      padding: 20px 0px; }
+    #navbar .menu {
+      font-size: 14px; } }
   @media only screen and (device-width: 1024px) and (device-height: 1366px) {
     #navbar .navbar {
-      padding: 25px 0px; } }
+      padding: 25px 0px; }
+    #navbar .menu {
+      font-size: 14px; } }
 
 #footer {
   z-index: -1;

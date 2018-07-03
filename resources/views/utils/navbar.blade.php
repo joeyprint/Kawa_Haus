@@ -15,7 +15,7 @@
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarText">
-                        <ul class="navbar-nav mr-auto">
+                        <ul class="navbar-nav mr-auto w-100 margin-for-nav">
                             <li class="nav-item active">
                                 <a class="nav-link menu active" data-nav="banner" href="#banner">หน้าหลัก <span class="sr-only">(current)</span></a>
                             </li>
