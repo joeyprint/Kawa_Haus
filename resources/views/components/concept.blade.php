@@ -22,7 +22,7 @@
                 </div>
             </div>
             <div class="col-12 col-lg-6 story-box" data-aos="fade-up" data-aos-offset="200">
-                <p class="story-text font-weight-bold">LIVE A GOOD STORY</p>
+                <p class="story-text">LIVE A GOOD STORY</p>
                 <p class="des-text text-center">ท่ามกลางความเร่งรีบของคนเมืองธรรมชาติยังเป็นสิ่งหนึ่งที่ช่วยสร้างเรื่องราวดีๆของ
                     ชีวิตภายใต้ร่มเงาของต้นไม้ใหญ่และความสดชื่นของชีวิตริมน้ำในขณะที่ทุกความสะดวก
                     สบายอยู่ใกล้แค่เอื้อมท่ามกลางความเร่งรีบของคนเมืองธรรมชาติยังเป็นสิ่งหนึ่งที่ช่วย

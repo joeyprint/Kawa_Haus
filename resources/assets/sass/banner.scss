@@ -37,7 +37,7 @@
 
     .line {
         width: 30px;
-        border-top: 4px solid #009dbe;
+        border-top: 4px solid $blue-sea;
         position: relative;
         left: 50%;
         transform: translate(-50%, 0%);
@@ -121,7 +121,7 @@
         .regis-pos {
             position: relative;
             top: 20px;
-            right: 20px;
+            // right: 20px;
         }
 
         .bg-regis:hover {

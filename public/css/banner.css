@@ -49,7 +49,7 @@
     letter-spacing: 1; }
   #banner .line {
     width: 30px;
-    border-top: 4px solid #009dbe;
+    border-top: 4px solid #006783;
     position: relative;
     left: 50%;
     transform: translate(-50%, 0%);
@@ -94,7 +94,6 @@
         margin: 10px 0px 13px 0px; }
       #banner .regis-pos {
         position: relative;
-        top: 20px;
-        right: 20px; }
+        top: 20px; }
       #banner .bg-regis:hover {
         background-color: #04424e; } }

@@ -101,7 +101,7 @@
       #concept .des-text {
         font-size: 23px;
         line-height: 1.5;
-        text-align: justify !important; }
+        text-align: left !important; }
       #concept .water-mask-right {
         position: absolute;
         right: 0%;

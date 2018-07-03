@@ -37,7 +37,7 @@
                 </div>
             </div>
         </div>
-        <div class="row d-none d-lg-block" data-aos="fade-up" data-aos-offset="150" data-aos-duration="3000" data-aos-once="true">
+        <div class="row d-none d-lg-block" data-aos="fade-up" data-aos-offset="150" data-aos-duration="500" data-aos-once="true">
             <div class="d-flex flex-row justify-content-center">
                 <div class="col-lg-6">
                     <div class="col-lg-12 text-center">
