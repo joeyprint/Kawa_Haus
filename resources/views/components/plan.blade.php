@@ -17,7 +17,7 @@
                 <div class="d-flex flex-row justify-content-center">
                     <div class="col-10">
                         <select class="select-btn" name="plan" id="plan-option-mobile">
-                            <option class="option-text" value="1">TYPE 1A-1 33.50-34.00SQ.M </option>
+                            <option class="option-text" selected value="1">TYPE 1A-1 33.50-34.00SQ.M </option>
                             <option class="option-text" value="2">TYPE 1E-2 35.75-36.00SQ.M</option>
                             <option class="option-text" value="3">TYPE 2B-2 51.25SQ.M</option>
                             <option class="option-text" value="4">TYPE 2D-2-67.25SQ.M</option>

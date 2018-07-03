@@ -19,8 +19,14 @@ plan.owlCarousel({
 plan.on('translate.owl.carousel', function(props) {
     var index = props.item.index - 1;
     console.log(index);
+
+    // For Desktop
     $('.option-text').removeClass('active');
     $('[value=' + index + ']').children().addClass('active');
+
+    // For mobile select > option
+    $('#plan-option-mobile > option').removeAttr('selected');
+    $('[value=' + index + ']').attr('selected', 'selected');
 });
 
 $("#plan-option-mobile").on('change', function() {
