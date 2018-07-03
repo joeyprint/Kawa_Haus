@@ -56,7 +56,7 @@
                 <div class="owl-carousel owl-theme owl-loaded">
                     <div class="owl-stage-outer">
                         <div class="row">
-                            <div class="col-10 col-lg-6">
+                            <div class="col-12 col-lg-6">
                                 <div class="owl-stage">
                                     <div class="owl-item plan-block">
                                         <img class="plan-size plan-pos" src="{{ asset('/imgs/plan1A.png') }}" alt="plan 1A">
