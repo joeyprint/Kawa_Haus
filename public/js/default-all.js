@@ -11,6 +11,10 @@ $(document).ready(function() {
 
         $(".nav-link").removeClass("active");
         $(this).addClass("active");
+
+        $('.navbar-toggler').addClass('collapsed');
+        $('.navbar-toggler').attr('aria-expanded', false);
+        $('.navbar-collapse').removeClass('show');
     });
 
     $(window).scroll(function() {
