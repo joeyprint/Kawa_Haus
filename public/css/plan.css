@@ -206,7 +206,7 @@
 
 @media only screen and (device-width: 768px) and (device-height: 1024px) {
   #plan .pos-for-watermask {
-    top: -50px; }
+    top: 0px; }
   #plan .inno-pos {
     top: 50% !important;
     left: 50%;

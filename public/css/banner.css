@@ -66,6 +66,9 @@
   #banner .bg-regis {
     background-color: #025364;
     cursor: pointer; }
+  @media only screen and (device-width: 320px) {
+    #banner .img-block {
+      height: 150px; } }
   @media (min-width: 576px) {
     #banner .img-block {
       height: 270px; } }

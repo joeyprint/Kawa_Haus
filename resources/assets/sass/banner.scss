@@ -66,6 +66,12 @@
         cursor: pointer;
     }
 
+    @media only screen and (device-width: 320px) {
+        .img-block {
+            height: 150px;
+        }
+    }
+
     @media (min-width: 576px) {
         .img-block {
             height: 270px;
