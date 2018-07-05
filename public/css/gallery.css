@@ -113,8 +113,8 @@
     left: 50%;
     margin-left: 8px; }
   #gallery .relax-icon {
-    position: relative;
-    top: -140px;
+    position: absolute;
+    top: 50%;
     left: 65%;
     width: 60px;
     height: auto; }
@@ -310,3 +310,15 @@
   @media only screen and (device-width: 1024px) and (device-height: 1366px) {
     #gallery .relax-icon {
       top: -60px; } }
+
+#modal .modal-content {
+  background-color: transparent !important;
+  border: transparent !important; }
+
+#modal .modal-header {
+  border: transparent; }
+
+#modal .close {
+  color: #fff;
+  opacity: 1;
+  font-size: 50px; }

@@ -30,6 +30,7 @@
         <script src="{{ asset('/js/owl.animate.js') }}"></script>
         <script src="{{ asset('/js/aos.js') }}"></script>
         <script>
+            var asset_url = "{{ asset('') }}";
             $(function(){
                 AOS.init();
             });

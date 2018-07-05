@@ -17,22 +17,22 @@
                             <div class="owl-stage-outer">
                                 <div class="owl-stage">
                                     <div class="owl-item">
-                                        <div class="block1 overflow-hid">
+                                        <div class="block1 overflow-hid" data-toggle="modal" data-target="#imageModal" onclick="ImageZoom(1)">
                                             <img class="img-size" src="{{ asset('/imgs/1.jpg') }}" alt="1">
                                         </div>
                                     </div>
                                     <div class="owl-item">
-                                        <div class="block1 overflow-hid">
+                                        <div class="block1 overflow-hid" data-toggle="modal" data-target="#imageModal" onclick="ImageZoom(9)">
                                             <img class="img-size" src="{{ asset('/imgs/9.jpg') }}" alt="9">
                                         </div>
                                     </div>
                                     <div class="owl-item">
-                                        <div class="block1 overflow-hid">
+                                        <div class="block1 overflow-hid" data-toggle="modal" data-target="#imageModal" onclick="ImageZoom(17)">
                                             <img class="img-size" src="{{ asset('/imgs/17.jpg') }}" alt="17">
                                         </div>
                                     </div>
                                     <div class="owl-item">
-                                        <div class="block1 overflow-hid">
+                                        <div class="block1 overflow-hid" data-toggle="modal" data-target="#imageModal" onclick="ImageZoom(25)">
                                             <img class="img-size" src="{{ asset('/imgs/25.jpg') }}" alt="25">
                                         </div>
                                     </div>
@@ -53,82 +53,82 @@
                         <div class="block2 overflow-hid">
                             <div class="row no-gutters">
                                 <div class="col-3 flip-container flipper" data-img="1">
-                                    <div class="flip-init-left">
+                                    <div class="flip-init-left" data-toggle="modal" data-target="#imageModal" onclick="ImageZoom(2)">
                                         <img src="{{ asset('/imgs/2-1.jpg') }}" alt="2-1" width="100%">
                                     </div>
                                 </div>
                                 <div class="col-3 flip-container flipper" data-img="2">
-                                    <div class="flip-init-left">
+                                    <div class="flip-init-left" data-toggle="modal" data-target="#imageModal" onclick="ImageZoom(2)">
                                         <img src="{{ asset('/imgs/2-2.jpg') }}" alt="2-2" width="100%">
                                     </div>
                                 </div>
                                 <div class="col-3 flip-container flipper" data-img="3">
-                                    <div class="flip-init-left">
+                                    <div class="flip-init-left" data-toggle="modal" data-target="#imageModal" onclick="ImageZoom(2)">
                                         <img src="{{ asset('/imgs/2-3.jpg') }}" alt="2-3" width="100%">
                                     </div>
                                 </div>
                                 <div class="col-3 flip-container flipper" data-img="4">
-                                    <div class="flip-init-left">
+                                    <div class="flip-init-left" data-toggle="modal" data-target="#imageModal" onclick="ImageZoom(2)">
                                         <img src="{{ asset('/imgs/2-4.jpg') }}" alt="2-4" width="100%">
                                     </div>
                                 </div>
                                 <div class="col-3 flip-container flipper" data-img="2">
-                                    <div class="flip-init-down">
+                                    <div class="flip-init-down" data-toggle="modal" data-target="#imageModal" onclick="ImageZoom(2)">
                                         <img src="{{ asset('/imgs/2-5.jpg') }}" alt="2-5" width="100%">
                                     </div>
                                 </div>
                                 <div class="col-3 flip-container flipper" data-img="3">
-                                    <div class="flip-init-down">
+                                    <div class="flip-init-down" data-toggle="modal" data-target="#imageModal" onclick="ImageZoom(2)">
                                         <img src="{{ asset('/imgs/2-6.jpg') }}" alt="2-6" width="100%">
                                     </div>
                                 </div>
                                 <div class="col-3 flip-container flipper" data-img="4">
-                                    <div class="flip-init-down">
+                                    <div class="flip-init-down" data-toggle="modal" data-target="#imageModal" onclick="ImageZoom(2)">
                                         <img src="{{ asset('/imgs/2-7.jpg') }}" alt="2-7" width="100%">
                                     </div>
                                 </div>
                                 <div class="col-3 flip-container flipper" data-img="5">
-                                    <div class="flip-init-down">
+                                    <div class="flip-init-down" data-toggle="modal" data-target="#imageModal" onclick="ImageZoom(2)">
                                         <img src="{{ asset('/imgs/2-8.jpg') }}" alt="2-8" width="100%">
                                     </div>
                                 </div>
                                 <div class="col-3 flip-container flipper" data-img="3">
-                                    <div class="flip-init-down">
+                                    <div class="flip-init-down" data-toggle="modal" data-target="#imageModal" onclick="ImageZoom(2)">
                                         <img src="{{ asset('/imgs/2-9.jpg') }}" alt="2-9" width="100%">
                                     </div>
                                 </div>
                                 <div class="col-3 flip-container flipper" data-img="4">
-                                    <div class="flip-init-down">
+                                    <div class="flip-init-down" data-toggle="modal" data-target="#imageModal" onclick="ImageZoom(2)">
                                         <img src="{{ asset('/imgs/2-10.jpg') }}" alt="2-10" width="100%">
                                     </div>
                                 </div>
                                 <div class="col-3 flip-container flipper" data-img="5">
-                                    <div class="flip-init-left">
+                                    <div class="flip-init-left" data-toggle="modal" data-target="#imageModal" onclick="ImageZoom(2)">
                                         <img src="{{ asset('/imgs/2-11.jpg') }}" alt="2-11" width="100%">
                                     </div>
                                 </div>
                                 <div class="col-3 flip-container flipper" data-img="6">
-                                    <div class="flip-init-down">
+                                    <div class="flip-init-down" data-toggle="modal" data-target="#imageModal" onclick="ImageZoom(2)">
                                         <img src="{{ asset('/imgs/2-12.jpg') }}" alt="2-12" width="100%">
                                     </div>
                                 </div>
                                 <div class="col-3 flip-container flipper" data-img="4">
-                                    <div class="flip-init-down">
+                                    <div class="flip-init-down" data-toggle="modal" data-target="#imageModal" onclick="ImageZoom(2)">
                                         <img src="{{ asset('/imgs/2-13.jpg') }}" alt="2-13" width="100%">
                                     </div>
                                 </div>
                                 <div class="col-3 flip-container flipper" data-img="5">
-                                    <div class="flip-init-down">
+                                    <div class="flip-init-down" data-toggle="modal" data-target="#imageModal" onclick="ImageZoom(2)">
                                         <img src="{{ asset('/imgs/2-14.jpg') }}" alt="2-14" width="100%">
                                     </div>
                                 </div>
                                 <div class="col-3 flip-container flipper" data-img="6">
-                                    <div class="flip-init-left">
+                                    <div class="flip-init-left" data-toggle="modal" data-target="#imageModal" onclick="ImageZoom(2)">
                                         <img src="{{ asset('/imgs/2-15.jpg') }}" alt="2-15" width="100%">
                                     </div>
                                 </div>
                                 <div class="col-3 flip-container flipper" data-img="7">
-                                    <div class="flip-init-left">
+                                    <div class="flip-init-left" data-toggle="modal" data-target="#imageModal" onclick="ImageZoom(2)">
                                         <img src="{{ asset('/imgs/2-16.jpg') }}" alt="2-16" width="100%">
                                     </div>
                                 </div>
@@ -140,22 +140,22 @@
                             <div class="owl-stage-outer">
                                 <div class="owl-stage">
                                     <div class="owl-item">
-                                        <div class="block2 overflow-hid ">
+                                        <div class="block2 overflow-hid" data-toggle="modal" data-target="#imageModal" onclick="ImageZoom(2)">
                                             <img class="img-size img-active" src="{{ asset('/imgs/2.jpg') }}" alt="2">
                                         </div>
                                     </div>
                                     <div class="owl-item">
-                                        <div class="block2 overflow-hid">
+                                        <div class="block2 overflow-hid" data-toggle="modal" data-target="#imageModal" onclick="ImageZoom(10)">
                                             <img class="img-size" src="{{ asset('/imgs/10.jpg') }}" alt="10">
                                         </div>
                                     </div>
                                     <div class="owl-item">
-                                        <div class="block2 overflow-hid">
+                                        <div class="block2 overflow-hid" data-toggle="modal" data-target="#imageModal" onclick="ImageZoom(18)">
                                             <img class="img-size" src="{{ asset('/imgs/18.jpg') }}" alt="18">
                                         </div>
                                     </div>
                                     <div class="owl-item">
-                                        <div class="block2 overflow-hid">
+                                        <div class="block2 overflow-hid" data-toggle="modal" data-target="#imageModal" onclick="ImageZoom(26)">
                                             <img class="img-size" src="{{ asset('/imgs/26.jpg') }}" alt="26">
                                         </div>
                                     </div>
@@ -180,22 +180,22 @@
                             <div class="owl-stage-outer">
                                 <div class="owl-stage">
                                     <div class="owl-item">
-                                        <div class="block3 overflow-hid">
+                                        <div class="block3 overflow-hid" data-toggle="modal" data-target="#imageModal" onclick="ImageZoom(3)">
                                             <img class="img-size" src="{{ asset('/imgs/3.jpg') }}" alt="3">
                                         </div>
                                     </div>
                                     <div class="owl-item">
-                                        <div class="block3 overflow-hid">
+                                        <div class="block3 overflow-hid" data-toggle="modal" data-target="#imageModal" onclick="ImageZoom(11)">
                                             <img class="img-size" src="{{ asset('/imgs/11.jpg') }}" alt="11">
                                         </div>
                                     </div>
                                     <div class="owl-item">
-                                        <div class="block3 overflow-hid">
+                                        <div class="block3 overflow-hid" data-toggle="modal" data-target="#imageModal" onclick="ImageZoom(19)">
                                             <img class="img-size" src="{{ asset('/imgs/19.jpg') }}" alt="19">
                                         </div>
                                     </div>
                                     <div class="owl-item">
-                                        <div class="block3 overflow-hid">
+                                        <div class="block3 overflow-hid" data-toggle="modal" data-target="#imageModal" onclick="ImageZoom(27)">
                                             <img class="img-size" src="{{ asset('/imgs/27.jpg') }}" alt="27">
                                         </div>
                                     </div>
@@ -217,22 +217,22 @@
                             <div class="owl-stage-outer">
                                 <div class="owl-stage">
                                     <div class="owl-item">
-                                        <div class="block4 overflow-hid">
+                                        <div class="block4 overflow-hid" data-toggle="modal" data-target="#imageModal" onclick="ImageZoom(4)">
                                             <img class="img-size" src="{{ asset('/imgs/4.jpg') }}" alt="4">
                                         </div>
                                     </div>
                                     <div class="owl-item">
-                                        <div class="block4 overflow-hid">
+                                        <div class="block4 overflow-hid" data-toggle="modal" data-target="#imageModal" onclick="ImageZoom(12)">
                                             <img class="img-size" src="{{ asset('/imgs/12.jpg') }}" alt="12">
                                         </div>
                                     </div>
                                     <div class="owl-item">
-                                        <div class="block4 overflow-hid">
+                                        <div class="block4 overflow-hid" data-toggle="modal" data-target="#imageModal" onclick="ImageZoom(20)">
                                             <img class="img-size" src="{{ asset('/imgs/20.jpg') }}" alt="20">
                                         </div>
                                     </div>
                                     <div class="owl-item">
-                                        <div class="block4 overflow-hid">
+                                        <div class="block4 overflow-hid" data-toggle="modal" data-target="#imageModal" onclick="ImageZoom(28)">
                                             <img class="img-size" src="{{ asset('/imgs/28.jpg') }}" alt="28">
                                         </div>
                                     </div>
@@ -279,82 +279,82 @@
                         <div class="block5 overflow-hid">
                             <div class="row no-gutters">
                                 <div class="col-3 flip-container flipper" data-img="4">
-                                    <div class="flip-init-left">
+                                    <div class="flip-init-left" data-toggle="modal" data-target="#imageModal" onclick="ImageZoom(5)">
                                         <img src="{{ asset('/imgs/5-1.jpg') }}" alt="5-1" width="100%">
                                     </div>
                                 </div>
                                 <div class="col-3 flip-container flipper" data-img="3">
-                                    <div class="flip-init-left">
+                                    <div class="flip-init-left" data-toggle="modal" data-target="#imageModal" onclick="ImageZoom(5)">
                                         <img src="{{ asset('/imgs/5-2.jpg') }}" alt="5-2" width="100%">
                                     </div>
                                 </div>
                                 <div class="col-3 flip-container flipper" data-img="2">
-                                    <div class="flip-init-left">
+                                    <div class="flip-init-left" data-toggle="modal" data-target="#imageModal" onclick="ImageZoom(5)">
                                         <img src="{{ asset('/imgs/5-3.jpg') }}" alt="5-3" width="100%">
                                     </div>
                                 </div>
                                 <div class="col-3 flip-container flipper" data-img="1">
-                                    <div class="flip-init-left">
+                                    <div class="flip-init-left" data-toggle="modal" data-target="#imageModal" onclick="ImageZoom(5)">
                                         <img src="{{ asset('/imgs/5-4.jpg') }}" alt="5-4" width="100%">
                                     </div>
                                 </div>
                                 <div class="col-3 flip-container flipper" data-img="5">
-                                    <div class="flip-init-down">
+                                    <div class="flip-init-down" data-toggle="modal" data-target="#imageModal" onclick="ImageZoom(5)">
                                         <img src="{{ asset('/imgs/5-5.jpg') }}" alt="5-5" width="100%">
                                     </div>
                                 </div>
                                 <div class="col-3 flip-container flipper" data-img="4">
-                                    <div class="flip-init-down">
+                                    <div class="flip-init-down" data-toggle="modal" data-target="#imageModal" onclick="ImageZoom(5)">
                                         <img src="{{ asset('/imgs/5-6.jpg') }}" alt="5-6" width="100%">
                                     </div>
                                 </div>
                                 <div class="col-3 flip-container flipper" data-img="3">
-                                    <div class="flip-init-down">
+                                    <div class="flip-init-down" data-toggle="modal" data-target="#imageModal" onclick="ImageZoom(5)">
                                         <img src="{{ asset('/imgs/5-7.jpg') }}" alt="5-7" width="100%">
                                     </div>
                                 </div>
                                 <div class="col-3 flip-container flipper" data-img="2">
-                                    <div class="flip-init-down">
+                                    <div class="flip-init-down" data-toggle="modal" data-target="#imageModal" onclick="ImageZoom(5)">
                                         <img src="{{ asset('/imgs/5-8.jpg') }}" alt="5-8" width="100%">
                                     </div>
                                 </div>
                                 <div class="col-3 flip-container flipper" data-img="6">
-                                    <div class="flip-init-down">
+                                    <div class="flip-init-down" data-toggle="modal" data-target="#imageModal" onclick="ImageZoom(5)">
                                         <img src="{{ asset('/imgs/5-9.jpg') }}" alt="5-9" width="100%">
                                     </div>
                                 </div>
                                 <div class="col-3 flip-container flipper" data-img="5">
-                                    <div class="flip-init-down">
+                                    <div class="flip-init-down" data-toggle="modal" data-target="#imageModal" onclick="ImageZoom(5)">
                                         <img src="{{ asset('/imgs/5-10.jpg') }}" alt="5-10" width="100%">
                                     </div>
                                 </div>
                                 <div class="col-3 flip-container flipper" data-img="4">
-                                    <div class="flip-init-left">
+                                    <div class="flip-init-left" data-toggle="modal" data-target="#imageModal" onclick="ImageZoom(5)">
                                         <img src="{{ asset('/imgs/5-11.jpg') }}" alt="5-11" width="100%">
                                     </div>
                                 </div>
                                 <div class="col-3 flip-container flipper" data-img="3">
-                                    <div class="flip-init-down">
+                                    <div class="flip-init-down" data-toggle="modal" data-target="#imageModal" onclick="ImageZoom(5)">
                                         <img src="{{ asset('/imgs/5-12.jpg') }}" alt="5-12" width="100%">
                                     </div>
                                 </div>
                                 <div class="col-3 flip-container flipper" data-img="7">
-                                    <div class="flip-init-down">
+                                    <div class="flip-init-down" data-toggle="modal" data-target="#imageModal" onclick="ImageZoom(5)">
                                         <img src="{{ asset('/imgs/5-13.jpg') }}" alt="5-13" width="100%">
                                     </div>
                                 </div>
                                 <div class="col-3 flip-container flipper" data-img="6">
-                                    <div class="flip-init-down">
+                                    <div class="flip-init-down" data-toggle="modal" data-target="#imageModal" onclick="ImageZoom(5)">
                                         <img src="{{ asset('/imgs/5-14.jpg') }}" alt="5-14" width="100%">
                                     </div>
                                 </div>
                                 <div class="col-3 flip-container flipper" data-img="5">
-                                    <div class="flip-init-left">
+                                    <div class="flip-init-left" data-toggle="modal" data-target="#imageModal" onclick="ImageZoom(5)">
                                         <img src="{{ asset('/imgs/5-15.jpg') }}" alt="5-15" width="100%">
                                     </div>
                                 </div>
                                 <div class="col-3 flip-container flipper" data-img="4">
-                                    <div class="flip-init-left">
+                                    <div class="flip-init-left" data-toggle="modal" data-target="#imageModal" onclick="ImageZoom(5)">
                                         <img src="{{ asset('/imgs/5-16.jpg') }}" alt="5-16" width="100%">
                                     </div>
                                 </div>
@@ -366,22 +366,22 @@
                             <div class="owl-stage-outer">
                                 <div class="owl-stage">
                                     <div class="owl-item">
-                                        <div class="block5 overflow-hid">
+                                        <div class="block5 overflow-hid" data-toggle="modal" data-target="#imageModal" onclick="ImageZoom(5)">
                                             <img class="img-size img-active" src="{{ asset('/imgs/5.jpg') }}" alt="5">
                                         </div>
                                     </div>
                                     <div class="owl-item">
-                                        <div class="block5 overflow-hid">
+                                        <div class="block5 overflow-hid" data-toggle="modal" data-target="#imageModal" onclick="ImageZoom(13)">
                                             <img class="img-size" src="{{ asset('/imgs/13.jpg') }}" alt="13">
                                         </div>
                                     </div>
                                     <div class="owl-item">
-                                        <div class="block5 overflow-hid">
+                                        <div class="block5 overflow-hid" data-toggle="modal" data-target="#imageModal" onclick="ImageZoom(21)">
                                             <img class="img-size" src="{{ asset('/imgs/21.jpg') }}" alt="21">
                                         </div>
                                     </div>
                                     <div class="owl-item">
-                                        <div class="block5 overflow-hid">
+                                        <div class="block5 overflow-hid" data-toggle="modal" data-target="#imageModal" onclick="ImageZoom(29)">
                                             <img class="img-size" src="{{ asset('/imgs/29.jpg') }}" alt="29">
                                         </div>
                                     </div>
@@ -403,22 +403,22 @@
                             <div class="owl-stage-outer">
                                 <div class="owl-stage">
                                     <div class="owl-item">
-                                        <div class="block6 overflow-hid">
+                                        <div class="block6 overflow-hid" data-toggle="modal" data-target="#imageModal" onclick="ImageZoom(6)">
                                             <img class="img-size" src="{{ asset('/imgs/6.jpg') }}" alt="6">
                                         </div>
                                     </div>
                                     <div class="owl-item">
-                                        <div class="block6 overflow-hid">
+                                        <div class="block6 overflow-hid" data-toggle="modal" data-target="#imageModal" onclick="ImageZoom(14)">
                                             <img class="img-size" src="{{ asset('/imgs/14.jpg') }}" alt="14">
                                         </div>
                                     </div>
                                     <div class="owl-item">
-                                        <div class="block6 overflow-hid">
+                                        <div class="block6 overflow-hid" data-toggle="modal" data-target="#imageModal" onclick="ImageZoom(22)">
                                             <img class="img-size" src="{{ asset('/imgs/22.jpg') }}" alt="22">
                                         </div>
                                     </div>
                                     <div class="owl-item">
-                                        <div class="block6 overflow-hid">
+                                        <div class="block6 overflow-hid" data-toggle="modal" data-target="#imageModal" onclick="ImageZoom(30)">
                                             <img class="img-size" src="{{ asset('/imgs/30.jpg') }}" alt="30">
                                         </div>
                                     </div>
@@ -442,22 +442,22 @@
                             <div class="owl-stage-outer">
                                 <div class="owl-stage">
                                     <div class="owl-item">
-                                        <div class="block7 overflow-hid">
+                                        <div class="block7 overflow-hid" data-toggle="modal" data-target="#imageModal" onclick="ImageZoom(7)">
                                             <img class="img-size" src="{{ asset('/imgs/7.jpg') }}" alt="7">
                                         </div>
                                     </div>
                                     <div class="owl-item">
-                                        <div class="block7 overflow-hid">
+                                        <div class="block7 overflow-hid" data-toggle="modal" data-target="#imageModal" onclick="ImageZoom(15)">
                                             <img class="img-size" src="{{ asset('/imgs/15.jpg') }}" alt="15">
                                         </div>
                                     </div>
                                     <div class="owl-item">
-                                        <div class="block7 overflow-hid">
+                                        <div class="block7 overflow-hid" data-toggle="modal" data-target="#imageModal" onclick="ImageZoom(23)">
                                             <img class="img-size" src="{{ asset('/imgs/23.jpg') }}" alt="23">
                                         </div>
                                     </div>
                                     <div class="owl-item">
-                                        <div class="block7 overflow-hid">
+                                        <div class="block7 overflow-hid" data-toggle="modal" data-target="#imageModal" onclick="ImageZoom(31)">
                                             <img class="img-size" src="{{ asset('/imgs/31.jpg') }}" alt="31">
                                         </div>
                                     </div>
@@ -479,22 +479,22 @@
                             <div class="owl-stage-outer">
                                 <div class="owl-stage">
                                     <div class="owl-item">
-                                        <div class="block8 overflow-hid">
+                                        <div class="block8 overflow-hid" data-toggle="modal" data-target="#imageModal" onclick="ImageZoom(8)">
                                             <img class="img-size" src="{{ asset('/imgs/8.jpg') }}" alt="8">
                                         </div>
                                     </div>
                                     <div class="owl-item">
-                                        <div class="block8 overflow-hid">
+                                        <div class="block8 overflow-hid" data-toggle="modal" data-target="#imageModal" onclick="ImageZoom(16)">
                                             <img class="img-size" src="{{ asset('/imgs/16.jpg') }}" alt="16">
                                         </div>
                                     </div>
                                     <div class="owl-item">
-                                        <div class="block8 overflow-hid">
+                                        <div class="block8 overflow-hid" data-toggle="modal" data-target="#imageModal" onclick="ImageZoom(24)">
                                             <img class="img-size" src="{{ asset('/imgs/24.jpg') }}" alt="24">
                                         </div>
                                     </div>
                                     <div class="owl-item">
-                                        <div class="block8 overflow-hid">
+                                        <div class="block8 overflow-hid" data-toggle="modal" data-target="#imageModal" onclick="ImageZoom(32)">
                                             <img class="img-size" src="{{ asset('/imgs/32.jpg') }}" alt="32">
                                         </div>
                                     </div>
@@ -524,4 +524,21 @@
             </div>
         </div>
     </div>
+</section>
+
+<section id="modal">
+    <div class="modal fade" id="imageModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <img id="picture" src="" alt="" width="100%">
+            </div>
+            </div>
+        </div>
+        </div>
 </section>
